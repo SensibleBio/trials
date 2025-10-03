@@ -1,0 +1,64 @@
+[
+  {
+    "nct_id": "NCT04980482",
+    "brief_title": "Open-Label Study of AB-729, Nucleos(t)Ide Analogue and Pegylated Interferon Alfa-2a in Subjects With Chronic Hepatitis B Infection",
+    "official_title": "A Randomized, Open-Label, Multicenter Study Investigating AB-729, Nucleos(t)Ide Analogue and Pegylated Interferon Alfa-2a Treatment in Subjects With Chronic Hepatitis B Infection",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2021-10-29",
+    "completion_date": "2025-06",
+    "brief_summary": "This is a randomized, open label, multicenter Phase 2 study investigating the safety and antiviral activity of AB-729 in combination with ongoing NA therapy and short courses of Peg-IFN\u03b1-2a in subjects with CHB.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Arbutus Biopharma Corporation",
+    "collaborators": [],
+    "conditions": [
+      "Chronic Hepatitis b"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05960240",
+    "brief_title": "Safety, Tolerability, PK & PD of AB-101 Following Oral Administration in Healthy and CHB Subjects.",
+    "official_title": "A Double-Blind, Randomized, Placebo-Controlled, Single and Multiple Dose Study Evaluating the Safety, Tolerability, PK and PD of AB-101, an Oral PD-L1 Inhibitor, in Healthy Subjects and Subjects with Chronic HBV Infection.",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-08-30",
+    "completion_date": "2027-04",
+    "brief_summary": "This three-part, Phase 1 protocol will be the first clinical study of AB-101. Parts 1 and 2 will be a Phase 1a SAD/MAD of AB-101 in healthy adult subjects.\n\nPart 3 will be a Phase 1b dose-ranging assessment of AB-101 in non-cirrhotic Chronic Hepatitis B (CHB) subjects.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Arbutus Biopharma Corporation",
+    "collaborators": [],
+    "conditions": [
+      "Chronic Hepatitis B"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06154278",
+    "brief_title": "Intrahepatic and Peripheral Responses to Imdusiran (AB-729) in Chronic Hepatitis B",
+    "official_title": "Pilot Study to Evaluate Intrahepatic and Peripheral Responses to Small Interfering RNA, Imdusiran (AB-729), Among People With Chronic Hepatitis B",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-07-25",
+    "completion_date": "2027-07-01",
+    "brief_summary": "The goal of this clinical trial is to learn about the action of Imdusiran (AB-729) in the liver of people with chronic hepatitis B. The main questions it aims to answer are:\n\n* how well is it working in the liver\n* how does Imdusiran affect the hepatitis B virus\n\nParticipants will receive injections of Imdusiran, one injection every 8 weeks, for a total of 4 doses. They will also undergo 2 liver biopsies: one with the first dose of Imdusiran, and the second 8 weeks after the last dose of Imdusiran.",
+    "detailed_description": "This is a single-center, non-randomized, pilot study of Imdusiran in adults with chronic hepatitis B on oral antiviral therapy. The primary objective of this study is to evaluate the intrahepatic concentrations of Imdusiran. The secondary objective is to evaluate the effect of Imdusiran on viral markers.\n\nUp to 10 participants will receive a total of 4 subcutaneous injections of 60mg Imdusiran (one injection every 8 weeks). They will undergo 2 liver biopsies: one with the first dose, and the second 8 weeks after the last dose. There is an optional third liver biopsy at the end of study (week 52).",
+    "sponsor": "University of Maryland, Baltimore",
+    "collaborators": [
+      "Arbutus Biopharma Corporation"
+    ],
+    "conditions": [
+      "Chronic Hepatitis B"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  }
+]

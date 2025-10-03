@@ -1,0 +1,88 @@
+[
+  {
+    "nct_id": "NCT06125691",
+    "brief_title": "Safety and Immunogenicity First-in-human Dose-ranging Study of Self-Amplifying RNA Seasonal Influenza Vaccine in Adults",
+    "official_title": "A Phase 1, First-in-Human, Randomized, Observer-blind, Controlled, Dose-ranging Study to Evaluate the Safety, Reactogenicity, and Immunogenicity of a Self-Amplifying mRNA Seasonal Influenza Vaccine (ARCT-2138), When Administered to Healthy Adults",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2024-01-22",
+    "completion_date": "2025-01",
+    "brief_summary": "This is a safety and Immunogenicity first-in-human dose-ranging study of self-amplifying RNA Seasonal Influenza Vaccine (ARCT-2138) in adults.",
+    "detailed_description": "Phase 1, first-in-human, randomized, controlled, observer blind (open label Part 4 only), dose-escalation study, to assess the safety, tolerability, and immunogenicity of different dose levels of the ARCT-2138 vaccine, administered as a single dose to healthy young and older adults, in comparison with an inactivated influenza vaccine.\n\nStudy drug (ARCT-2138 or control) will be administered as an intramuscular (IM) injection. The study comprises of four parts. In Part 1, escalating dose levels of ARCT-2138 given as a single injection to younger adults will be evaluated sequentially.\n\nLow, medium, and high dose levels of ARCT-2138 (as recommended by DSMB) will be further evaluated in younger adults in Part 2. Part 3 will evaluate low, medium, and high dose levels of ARCT-2138 (as recommended by DSMB) in older adults.\n\nPart 4 (dose expansion phase) will administer a lower dose of ARCT-2138 in young adults.\n\nInvestigational Vaccine: ARCT-2138 (Part 1-3 only, no control vaccine for Part 4) Control Vaccines: licensed influenza vaccines (inactivated)\n\n* For younger adults: Flucelvax\u00ae Quad, Seqirus Pty Ltd.\n* For older adults: Fluad\u00ae Quad, Seqirus Pty Ltd.",
+    "sponsor": "Arcturus Therapeutics, Inc.",
+    "collaborators": [
+      "Seqirus",
+      "Novotech (Australia) Pty Limited"
+    ],
+    "conditions": [
+      "Influenza, Human"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06602531",
+    "brief_title": "Safety and Immunogenicity Study of Self-Amplifying RNA Pandemic Influenza Vaccine in Adults",
+    "official_title": "A Phase 1, First-in-human, Randomized, Observer-blind, Parallel Design, Controlled, Dose Level and Schedule-finding Study to Evaluate the Safety, Reactogenicity, and Immunogenicity of a Self-Amplifying MRNA Pandemic Influenza Vaccine (ARCT-2304) When Administered to Healthy Adults",
+    "overall_status": "NOT_YET_RECRUITING",
+    "start_date": "2024-12-12",
+    "completion_date": "2025-12-19",
+    "brief_summary": "The goal of this clinical trial is to evaluate the safety and immune responses of three different dose levels a self-amplifying RNA pandemic influenza vaccine (ARCT-2304) in adults. The key objectives of the study are:\n\n* To evaluate safety and reactogenicity of different dose levels of the ARCT-2304 vaccine\n* To describe the Immune responses of different dose levels of the ARCT-2304 vaccine as measured by hemagglutination inhibition (HAI) and neuraminidase enzyme-linked lectin (ELLA) antibody responses\n\nResearchers will compare the results with licensed influenza vaccines to select the most optimal dose level and schedule for vaccine administration in terms of safety and immunogenicity for further development of the vaccine.\n\nParticipants will receive 2 doses of the ARCT-2304 vaccine or 1 dose of licensed influenza vaccine and 1 dose of placebo.\n\nThey will be asked:\n\n* to complete a daily diary for 7 days after each vaccination, answering questions how they have been feeling on that day.\n* to provide blood samples at each visit in the clinic\n* to comply with all study visits and procedures (e.g., be available for planned telephone contacts and unscheduled clinic visits, if required)",
+    "detailed_description": "Phase 1, first-in-human, randomized, controlled, observer blind, dose level and schedule-finding study, to evaluate the safety, reactogenicity, and immunogenicity of a self-amplifying mRNA pandemic influenza (H5N1) vaccine (ARCT-2304) when administered as a 2-dose vaccination series to healthy adults in comparison with an inactivated influenza vaccine.\n\nStudy drug (ARCT-2304 or control) will be administered as a 2-dose vaccination series as an intramuscular (IM) injection. The study comprises two parts.\n\nIn Part 1, 120 participants (young adults) will be randomized to one of the three dose levels of the ARCT-2304 vaccine or control vaccine. Participants will be further randomized to one of the two different vaccination schedules.\n\nIn Part 2, 80 participants (older adults) will be randomized to one of the three dose levels of the ARCT-2304 vaccine or control vaccine. Participants will be further randomized to one of the two different vaccination schedules.\n\nInvestigational Vaccine: ARCT-2304\n\nControl Vaccines: licensed influenza vaccines",
+    "sponsor": "Arcturus Therapeutics, Inc.",
+    "collaborators": [],
+    "conditions": [
+      "Influenza, Human"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06747858",
+    "brief_title": "Safety, Tolerability and Efficacy Study of ARCT-032 in People With Cystic Fibrosis",
+    "official_title": "A Phase 2, Open-label, Multiple Ascending-Dose Study to Evaluate the Safety, Tolerability and Efficacy of ARCT-032 in People With Cystic Fibrosis",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-12-12",
+    "completion_date": "2025-12",
+    "brief_summary": "ARCT-032-02 is a Phase 2, open-label, multicenter, multiple-ascending dose study of ARCT-032 in adults with CF who are not eligible for CFTR modulator therapy or are not taking CFTR modulators due to drug intolerance, poor response, or lack of access to modulators.",
+    "detailed_description": "This is an open-label, multiple-ascending dose study of ARCT-032 in adults with CF who are not on CFTR modulator therapy. After successful screening, eligible participants will receive nebulized ARCT-032 daily for 4 weeks, and then followed for safety for a total of 12 weeks.",
+    "sponsor": "Arcturus Therapeutics, Inc.",
+    "collaborators": [],
+    "conditions": [
+      "Cystic Fibrosis",
+      "CFTR Gene Mutation"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06488313",
+    "brief_title": "A Study to Evaluate the Pharmacodynamics and Safety of ARCT-810 in Participants With OTCD",
+    "official_title": "A Phase 2a, Open-label, Multiple Ascending Dose Study to Evaluate the Pharmacodynamics and Safety of ARCT-810 in Adolescent and Adult Participants With Ornithine Transcarbamylase Deficiency",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-11-04",
+    "completion_date": "2026-09-01",
+    "brief_summary": "Evaluate the safety and pharmacodynamics of multiple doses of ARCT-810 in adolescent and adult participants with OTC deficiency.",
+    "detailed_description": "This a Phase 2a, open-label study of ARCT-810 in participants 12 years of age and older living with OTC deficiency. After a diet stabilization period of at least 4 weeks, all participants will be enrolled to receive ARCT-810 every two weeks, for up to five doses, at one of three dose levels. Clinic visits will occur during screening and at Days 1, 15, 29, 36, 43, 57, 60, 71, and 85. During the study, participants will remain on their current clinical management for OTC deficiency. Dose escalation or cohort expansion may occur following completion of three participants at each dose level.",
+    "sponsor": "Arcturus Therapeutics, Inc.",
+    "collaborators": [],
+    "conditions": [
+      "OTC Deficiency",
+      "Ornithine Transcarbamylase Deficiency",
+      "OTCD"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  }
+]

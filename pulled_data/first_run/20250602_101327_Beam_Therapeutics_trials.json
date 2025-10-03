@@ -1,0 +1,110 @@
+[
+  {
+    "nct_id": "NCT06934382",
+    "brief_title": "Anti-CD7 CAR-T Cells in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia or Lymphoma",
+    "official_title": "A Phase 1 Study of Allogeneic Anti-CD7 CAR-T Cells (BEAM-201) in Relapsed/Refractory T-cell Acute Lymphoblastic Leukemia (T-ALL) or T-cell Lymphoblastic Lymphoma (T-LLy)",
+    "overall_status": "RECRUITING",
+    "start_date": "2025-04-29",
+    "completion_date": "2031-05-30",
+    "brief_summary": "This will be a Phase 1, open-label study to evaluate the safety and efficacy of BEAM-201 in patients with R/R T-ALL or T-LLy. BEAM-201 is an allogeneic anti-CD7 CART therapy.",
+    "detailed_description": "Despite favorable outcomes in newly diagnosed patients, approximately 20% of pediatric and young adult T-ALL patients and 40% of adult patients will have refractory disease or will relapse within 2 years of their initial diagnosis. Survival rates of patients with relapsed disease remain below 35%. For recurrent disease, allogeneic hematopoietic stem cell transplant (HSCT) is the only known potentially curative treatment. However, a prerequisite to HSCT is obtaining a complete remission, which remains a significant challenge as only 40 to 50% of patients achieve a second remission with current reinduction regimens with salvage rates even lower for patients with disease that is refractory to first-line chemotherapy.\n\nBEAM-201 is an allogeneic anti-CD7 CAR T cell product that has shown promising early evidence of efficacy, with 3 out of 4 adult T-ALL patients infused had a CRi/CR \u226528 days after infusion. Safety of BEAM-201 has been favorable and consistent with known adverse events associated with other CAR T cell therapies.\n\nGiven the current treatment landscape of T-ALL/T-LLy, promising clinical experience with BEAM-201, and that \\>98% of T-ALL cases highly and homogenously express CD7 protein on the surfaces of their lymphoblasts, the investigators think there is compelling rationale in further investigating the safety and efficacy of BEAM-201 in pediatric patients.",
+    "sponsor": "Stephan Grupp MD PhD",
+    "collaborators": [
+      "Beam Therapeutics Inc."
+    ],
+    "conditions": [
+      "T-Cell Acute Lymphoblastic Leukemia/Lymphoma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05456880",
+    "brief_title": "BEACON: A Study Evaluating the Safety and Efficacy of BEAM-101 in Patients With Severe Sickle Cell Disease",
+    "official_title": "A Phase 1/2 Study Evaluating the Safety and Efficacy of a Single Dose of Autologous CD34+ Base Edited Hematopoietic Stem Cells (BEAM-101) in Patients With Sickle Cell Disease and Severe Vaso-Occlusive Crises (Beacon Trial)",
+    "overall_status": "RECRUITING",
+    "start_date": "2022-08-30",
+    "completion_date": "2027-02-01",
+    "brief_summary": "This is an open-label, single-arm, multicenter, Phase 1/2 study evaluating the safety and efficacy of the administration of autologous base edited CD34+ HSPCs (BEAM-101) in patients with severe SCD",
+    "detailed_description": "No detailed description",
+    "sponsor": "Beam Therapeutics Inc.",
+    "collaborators": [],
+    "conditions": [
+      "Sickle Cell Disease"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05885464",
+    "brief_title": "A Study Evaluating the Safety and Efficacy of BEAM-201 in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+    "official_title": "A Phase 1/2, Dose-Exploration and Dose-Expansion Study Evaluating the Safety and Efficacy of Multiplex Base-Edited, Allogeneic Anti-CD7 CAR-T Cells (BEAM-201) in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2023-05-25",
+    "completion_date": "2026-12",
+    "brief_summary": "This is a Phase 1/2, multicenter, open-label study to evaluate the safety and efficacy of BEAM-201 in patients with relapsed/refractory T-ALL or T-LL. This study consists of Phase 1 dose-exploration cohorts, Phase 1 dose-expansion cohort(s), a Phase 1 pediatric cohort (will enroll patients ages 1 to \\< 12 years), and a Phase 2 cohort.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Beam Therapeutics Inc.",
+    "collaborators": [],
+    "conditions": [
+      "Lymphoblastic Lymphoma",
+      "T-Cell Lymphoblastic Leukemia/Lymphoma",
+      "Lymphoblastic Leukemia"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06735755",
+    "brief_title": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa)",
+    "official_title": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa) Homozygous or Compound Heterozygous for the G6PC1 c.247C>T (p.R83C) Variant",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-12-06",
+    "completion_date": "2027-12-30",
+    "brief_summary": "This is a Phase 1/2, multicenter, open-label, single-ascending-dose study to evaluate the safety, tolerability, and efficacy of BEAM-301 in adult patients with GSDIa homozygous or compound heterozygous for the G6PC1 c.247C\\>T (p.R83C) variant and to determine the optimal biological dose.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Beam Therapeutics Inc.",
+    "collaborators": [],
+    "conditions": [
+      "Glycogen Storage Disease Type Ia"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06389877",
+    "brief_title": "A Study to Evaluate the Safety and Efficacy of BEAM-302 in Adult Patients With Alpha-1 Antitrypsin Deficiency (AATD)",
+    "official_title": "A Phase 1/2 Dose-exploration and Dose-expansion Study to Evaluate the Safety and Efficacy of BEAM-302 in Adult Patients With Alpha-1 Antitrypsin Deficiency (AATD)-Associated Lung Disease and/or Liver Disease",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-06-19",
+    "completion_date": "2027-08",
+    "brief_summary": "This is a Phase 1/2, multicenter, open-label, dose-exploration (Phase 1) and dose-expansion (Phase 2) study to evaluate the safety, tolerability, PK/PD, and efficacy of BEAM-302 in adult patients with AATD-associated lung disease and/or liver disease and to determine the optimal biological dose (OBD).",
+    "detailed_description": "No detailed description",
+    "sponsor": "Beam Therapeutics Inc.",
+    "collaborators": [],
+    "conditions": [
+      "Alpha 1-Antitrypsin Deficiency"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  }
+]

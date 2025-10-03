@@ -1,0 +1,169 @@
+[
+  {
+    "_metadata": {
+      "classification_timestamp": "2025-06-02 12:46:12",
+      "input_file": "mrna_trials_5.json",
+      "total_trials": 5,
+      "category_counts": {
+        "Not eligible": 2,
+        "Cancer": 2,
+        "Protein Replacement": 0,
+        "Genetic Medicines": 0,
+        "mRNA-Encoded Biologics": 0,
+        "Cell Therapies": 0,
+        "Infectious Disease Vaccines": 1
+      },
+      "llm_provider": "GeminiProvider"
+    }
+  },
+  {
+    "nct_id": "NCT04880174",
+    "brief_title": "SARS-COV-2 Seroprevalence and Seroconversion Among Employees of the Universitair Ziekenhuis Brussel Following mRNA COVID-19 Vaccination",
+    "official_title": "SARS-COV-2 Seroprevalence and Seroconversion Among Employees of the Universitair Ziekenhuis Brussel Following mRNA COVID-19 Vaccination",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2021-03-22",
+    "completion_date": "2028-07",
+    "brief_summary": "A novel zoonotic coronavirus was discovered in Wuhan (Hubei Province, China) mid-December 2019 and was named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The virus rapidly spread to the rest of the world, including Europe and explicitly affects the respiratory system, generating Coronavirus disease 2019 (COVID-19).\n\nThis study is a monocentric interventional prospective and retrospective cohort study. After signing a written informed consent, participants will be recruited for questionnaire completion and blood sampling. Sample storage and analysis will be performed at the laboratory of microbiology of the UZ Brussel.\n\nTo document SARS-CoV-2 seroprevalence and seroconversion among employees of the UZ Brussel after mRNA vaccination for SARS-CoV-2, namely at 8 weeks after first vaccination, 6 months after first vaccination and 12 months after first vaccination.",
+    "detailed_description": "A novel zoonotic coronavirus was discovered in Wuhan (Hubei Province, China) mid-December 2019 and was named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The virus rapidly spread to the rest of the world, including Europe and explicitly affects the respiratory system, generating Coronavirus disease 2019 (COVID-19).\n\nUZ Brussel employees presenting symptoms suggestive of COVID-19 are offered to be tested with real-time PCR on nasopharyngeal swabs. As asymptomatic infections have been described and as the PCR can be negative when taken late after onset of symptoms, serologic tests can be performed. The SARS-CoV 2003 epidemic demonstrated that serological assays were a useful diagnostic tool of non-acute infections. Although it is still uncertain whether convalescing patients have a risk of re-infection, recent data suggest that SARS-CoV-2 antibodies could protect at least for some time from subsequent viral exposures.\n\nAs the COVID-19 pandemic had devastating medical, economic and social consequences, safe and effective prophylactic vaccines were urgently needed. And thus several candidate vaccines against SARS-CoV-2 have been developed. During the first weeks of the vaccination campaign, the health care workers of the UZ Brussel, were invited to receive the BNT162b2 (Pfizer) vaccine.\n\nConsequently, the investigators aim to prospectively document the SARS-CoV-2 seroprevalence and seroconversion among vaccinated employees of the UZ Brussel, at three different time points, namely 6 weeks (+/- 2 weeks; T1), 6 months (+/- 1 month; T2) and 12 months (+/- 1 month; T3) after the second vaccination.",
+    "sponsor": "Universitair Ziekenhuis Brussel",
+    "collaborators": [],
+    "conditions": [
+      "SARS-CoV Infection"
+    ],
+    "interventions": [],
+    "phases": [
+      "NA"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "classification": "VERIFICATION: This is an eligible mRNA interventional trial. The \"Brief Summary\" explicitly states, \"This study is a monocentric interventional prospective and retrospective cohort study.\" Furthermore, the title and detailed description clearly indicate the involvement of an mRNA-based therapeutic, specifically mentioning \"mRNA COVID-19 Vaccination\" and the \"BNT162b2 (Pfizer) vaccine,\" which is a well-known mRNA vaccine.\n\nCLASSIFICATION: [6] Infectious Disease Vaccines\n\nCONFIDENCE LEVEL: HIGH\n\nRATIONALE: The trial's central focus is on documenting \"SARS-CoV-2 seroprevalence and seroconversion among employees... following mRNA COVID-19 Vaccination.\" The intervention explicitly named is the \"BNT162b2 (Pfizer) vaccine,\" which is an mRNA vaccine designed to elicit an immune response against SARS-CoV-2, an infectious agent. This aligns directly with the definition of the \"Infectious Disease Vaccines\" category, which includes trials evaluating mRNA vaccines that encode viral or bacterial antigens for immune system training and prevention, and specifically mentions \"COVID-19 vaccines.\" The study's objective is to understand the immune response (seroconversion) to this prophylactic vaccine.\n\nKEY INDICATORS:\n1.  \"mRNA COVID-19 Vaccination\"\n2.  \"BNT162b2 (Pfizer) vaccine\"\n3.  \"SARS-CoV-2 seroprevalence and seroconversion\"\n4.  \"SARS-CoV Infection\" (listed as the condition)\n5.  \"safe and effective prophylactic vaccines were urgently needed\"",
+    "category": "Infectious Disease Vaccines",
+    "key_indicators": [
+      "1.  \"mRNA COVID-19 Vaccination\"",
+      "2.  \"BNT162b2 (Pfizer) vaccine\"",
+      "3.  \"SARS-CoV-2 seroprevalence and seroconversion\"",
+      "4.  \"SARS-CoV Infection\" (listed as the condition)",
+      "5.  \"safe and effective prophylactic vaccines were urgently needed\""
+    ]
+  },
+  {
+    "nct_id": "NCT02885974",
+    "brief_title": "Celecoxib With Chemotherapy in Localized, Muscle-Invasive Bladder Cancer",
+    "official_title": "Pilot Study of Celecoxib Combined With Gemcitabine and Cisplatin for Neoadjuvant Treatment of Localized, Muscle-Invasive Bladder Cancer",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2016-12",
+    "completion_date": "2026-09",
+    "brief_summary": "The purpose of this study is to compare patient tumor tissue before and after treatment with chemotherapy plus celecoxib. Investigators will look at gene expression, to see what effect celecoxib may have on tumor cells.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Baylor College of Medicine",
+    "collaborators": [],
+    "conditions": [
+      "Bladder Cancer"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "classification": "VERIFICATION: This is not an eligible mRNA interventional trial.\nThe trial is an interventional study, as it investigates the effect of celecoxib combined with chemotherapy (gemcitabine and cisplatin) on localized, muscle-invasive bladder cancer, and compares patient tumor tissue before and after treatment. However, the intervention described (celecoxib, gemcitabine, cisplatin) does not involve any mRNA-based medicine or therapeutic. There are no mentions of mRNA, messenger RNA, lipid nanoparticles, gene editing, specific mRNA drug codes (e.g., BNT162b2, mRNA-1273), or any of the key mRNA companies or technology clues provided. The focus is on a COX-2 inhibitor and traditional chemotherapy drugs.\n\nCLASSIFICATION: Not Applicable\n\nCONFIDENCE LEVEL: HIGH\n\nRATIONALE: The trial NCT02885974 is a Phase 1 pilot study investigating the neoadjuvant treatment of muscle-invasive bladder cancer with celecoxib combined with gemcitabine and cisplatin. Celecoxib is a selective COX-2 inhibitor, and gemcitabine and cisplatin are conventional cytotoxic chemotherapy agents. While the study aims to look at \"gene expression\" to understand celecoxib's effect on tumor cells, this is a biomarker analysis of the tumor's response to the drug, not an indication that the drug itself is mRNA-based. There is no information provided in the brief summary or interventions that suggests the use of mRNA technology, lipid nanoparticles, gene editing, or any form of genetic therapy. The listed \"KNOWN mRNA INDICATORS\" are entirely absent from the trial description.\n\nKEY INDICATORS:\n1.  \"Celecoxib With Chemotherapy\"\n2.  \"Gemcitabine and Cisplatin\"\n3.  No mention of \"mRNA,\" \"messenger RNA,\" or specific mRNA drug codes.\n4.  No mention of \"Lipid nanoparticles,\" \"gene editing,\" or \"mRNA vaccines.\"",
+    "category": "Not eligible",
+    "key_indicators": [
+      "1.  \"Celecoxib With Chemotherapy\"",
+      "2.  \"Gemcitabine and Cisplatin\"",
+      "3.  No mention of \"mRNA,\" \"messenger RNA,\" or specific mRNA drug codes.",
+      "4.  No mention of \"Lipid nanoparticles,\" \"gene editing,\" or \"mRNA vaccines.\""
+    ]
+  },
+  {
+    "nct_id": "NCT05513365",
+    "brief_title": "Phase II Dutasteride in Combination With CAB vs CAB in SDC",
+    "official_title": "A Randomized Phase II Trial on the Addition of Dutasteride to Combined Androgen Blockade Therapy Versus Combined Androgen Blockade Therapy Alone in Patients With Recurrent and/or Metastatic Salivary Duct Carcinoma - DUCT Study",
+    "overall_status": "RECRUITING",
+    "start_date": "2022-09-27",
+    "completion_date": "2027-09",
+    "brief_summary": "Phase 2 clinical trial on the addition of dutasteride to combined androgen blockade (CAB) therapy in recurrent and/or metastatic (R/M) salivary duct carcinoma (SDC) patients.\n\nThe study included two cohorts of patients: Cohort A, which comprises ADT-na\u00efve patients, and Cohort B, which comprises ADT-resistant patients.\n\nCohort A is closed for inclusion as of April 18, 2024.",
+    "detailed_description": "A prospective, randomized controlled, single-institution, phase II clinical trial to assess the objective response rate (ORR), duration of response (DoR), progression free survival (PFS), overall survival (OS), toxicity, quality of life (QoL), and expression of molecular targets of patients with R/M SDC treated with either combined androgen blockade (CAB; goserelin + bicalutamide) or CAB + dutasteride, Participants in Cohort A will be randomized 1:1 at the study entry to receive CAB (goserelin 10.8 mg/3months + bicalutamide 50 mg/once daily) or CAB + dutasteride (0.5 mg/once daily). Participants will receive treatment until until progressive disease, intolerable toxicity, or investigator and/or patient decision to withdraw.\n\nCohort A is closed for inclusion as of April 18, 2024.",
+    "sponsor": "Radboud University Medical Center",
+    "collaborators": [
+      "ZonMw: The Netherlands Organisation for Health Research and Development"
+    ],
+    "conditions": [
+      "Salivary Duct Carcinoma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "classification": "VERIFICATION: This is an interventional trial, as it is a randomized Phase II trial evaluating specific drug regimens (CAB or CAB + dutasteride) in patients. However, it does *not* involve an mRNA-based medicine or therapeutic. The interventions listed are goserelin (a GnRH agonist, a peptide), bicalutamide (a non-steroidal anti-androgen, a small molecule), and dutasteride (a 5-alpha reductase inhibitor, a small molecule). None of these are mRNA-based therapeutics. There are no mentions of mRNA technology, lipid nanoparticles, gene editing, or any of the key mRNA companies or drug codes typically associated with mRNA platforms.\n\nCLASSIFICATION: Not applicable (Trial is not an eligible mRNA interventional trial)\n\nCONFIDENCE LEVEL: HIGH\n\nRATIONALE: The trial explicitly states the interventions are goserelin, bicalutamide, and dutasteride. These are well-established conventional drugs; goserelin is a GnRH agonist, bicalutamide is an anti-androgen, and dutasteride is a 5-alpha reductase inhibitor. None of these drug classes or specific compounds are mRNA-based. The trial description contains no keywords or concepts (e.g., \"mRNA,\" \"messenger RNA,\" \"lipid nanoparticles,\" \"gene editing,\" specific mRNA drug codes, or names of companies specializing in mRNA technology like Moderna or BioNTech) that would indicate the use of an mRNA therapeutic. Therefore, despite being an interventional study, it falls outside the scope of mRNA-based clinical trials.\n\nKEY INDICATORS:\n*   Interventions clearly listed as goserelin, bicalutamide, and dutasteride.\n*   Absence of explicit \"mRNA\" or \"messenger RNA\" terminology.\n*   Absence of mRNA-specific delivery methods (e.g., \"lipid nanoparticles\").\n*   Absence of any mention of gene editing or specific mRNA drug codes (e.g., mRNA-XXXX).\n*   None of the listed \"Key mRNA Companies\" are associated with the sponsor or interventions.",
+    "category": "Not eligible",
+    "key_indicators": [
+      "*   Interventions clearly listed as goserelin, bicalutamide, and dutasteride.",
+      "*   Absence of explicit \"mRNA\" or \"messenger RNA\" terminology.",
+      "*   Absence of mRNA-specific delivery methods (e.g., \"lipid nanoparticles\").",
+      "*   Absence of any mention of gene editing or specific mRNA drug codes (e.g., mRNA-XXXX).",
+      "*   None of the listed \"Key mRNA Companies\" are associated with the sponsor or interventions."
+    ]
+  },
+  {
+    "nct_id": "NCT06026774",
+    "brief_title": "Clinical Study of Personalized mRNA Vaccine Encoding Neoantigen in Subjects With Resected Digestive System Neoplasms",
+    "official_title": "A Clinical Study to Assess the Safety, Feasibility, and Efficacy of Personalized mRNA Vaccine Encoding Neoantigen in Combination With Standard Adjuvant Therapy in Subjects With Resected Digestive System Neoplasms",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-09-08",
+    "completion_date": "2027-12-31",
+    "brief_summary": "The purpose of this study is to assess the safety, feasibility, and efficacy of personalized mRNA vaccine iNeo-Vac-R01 with standard adjuvant therapy in subjects with surgically resected digestive system neoplasms.",
+    "detailed_description": "This is a single-center, open-label, single-arm clinical study of personalized mRNA vaccine iNeo-Vac-R01 in combination with standard adjuvant therapy in subjects with surgically resected digestive system neoplasms.",
+    "sponsor": "Sir Run Run Shaw Hospital",
+    "collaborators": [
+      "Hangzhou Neoantigen Therapeutics Co., Ltd."
+    ],
+    "conditions": [
+      "Digestive System Neoplasms"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "classification": "VERIFICATION: This is an eligible mRNA interventional trial. The detailed description explicitly states it is a \"clinical study of personalized mRNA vaccine iNeo-Vac-R01\" and mentions \"mRNA vaccine encoding Neoantigen,\" clearly indicating an mRNA-based therapeutic intervention. The study design is also described as a \"clinical study,\" confirming its interventional nature.\n\nCLASSIFICATION: [1] Cancer\n\nCONFIDENCE LEVEL: HIGH\n\nRATIONALE: The trial's primary intervention is a \"personalized mRNA vaccine iNeo-Vac-R01 encoding Neoantigen.\" Neoantigens are tumor-specific antigens presented on cancer cells, making this a targeted approach to stimulate an immune response against cancer. The study population is \"subjects with surgically resected digestive system neoplasms,\" which refers to cancer of the digestive system. The goal is to assess the safety, feasibility, and efficacy of this mRNA vaccine in combination with standard adjuvant therapy for cancer. This aligns perfectly with the definition of the \"Cancer\" category, which includes trials encoding tumor antigens to activate or augment the immune system for cancer therapy.\n\nKEY INDICATORS:\n1.  \"personalized mRNA vaccine\"\n2.  \"encoding Neoantigen\"\n3.  \"Digestive System Neoplasms\"\n4.  \"standard adjuvant therapy\" (common in cancer treatment)\n5.  \"ressected...neoplasms\" (indicating post-surgical cancer treatment)",
+    "category": "Cancer",
+    "key_indicators": [
+      "1.  \"personalized mRNA vaccine\"",
+      "2.  \"encoding Neoantigen\"",
+      "3.  \"Digestive System Neoplasms\"",
+      "4.  \"standard adjuvant therapy\" (common in cancer treatment)",
+      "5.  \"ressected...neoplasms\" (indicating post-surgical cancer treatment)"
+    ]
+  },
+  {
+    "nct_id": "NCT06888674",
+    "brief_title": "Personalized Tumor Neoantigen MRNA Therapy Adjuvant Treatment for Postoperative Pancreatic Cancer.",
+    "official_title": "Clinical Study to Evaluate the Safety and Efficacy of Personalized Tumor Neoantigen MRNA Therapy Combined with PD-1 Antibody and Chemotherapy As Adjuvant Treatment for Postoperative Pancreatic Cancer.",
+    "overall_status": "NOT_YET_RECRUITING",
+    "start_date": "2025-04-01",
+    "completion_date": "2029-04-01",
+    "brief_summary": "This study is a single-center, open-label clinical study to evaluate the feasibility and safety of personalized tumor neoantigen mRNA therapy (iNeo-Vac-R01) in combination with PD-1 antibody and standard chemotherapy regimen as adjuvant treatment for postoperative resectable pancreatic cancer.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Zhejiang University",
+    "collaborators": [
+      "Hangzhou Neoantigen Therapeutics Co., Ltd."
+    ],
+    "conditions": [
+      "Pancreatic Cancer Resectable"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL",
+    "classification": "VERIFICATION: This is an eligible mRNA interventional trial.\nThe trial clearly states it is a \"clinical study to evaluate the feasibility and safety\" of an intervention (\"personalized tumor neoantigen mRNA therapy\"), confirming it is an interventional trial. Furthermore, the brief title, official title, and brief summary all explicitly mention \"mRNA Therapy\" and \"personalized tumor neoantigen mRNA therapy,\" directly indicating the involvement of an mRNA-based therapeutic.\n\nCLASSIFICATION: [1] Cancer\n\nCONFIDENCE LEVEL: HIGH\n\nRATIONALE: The trial's primary intervention is \"Personalized Tumor Neoantigen MRNA Therapy\" for \"Pancreatic Cancer.\" This directly aligns with the definition of the [1] Cancer category, which involves encoding \"tumor antigens\" to \"activate or augment the immune system for cancer therapy.\" Neoantigens are specific tumor-associated antigens that can be targeted by the immune system. The therapy is also administered as \"adjuvant treatment for postoperative resectable pancreatic cancer\" and \"combined with PD-1 antibody,\" a well-known cancer immunotherapy. This strongly indicates an immunotherapeutic approach aimed at stimulating an anti-tumor immune response to prevent recurrence, which is the core concept of mRNA cancer vaccines and immunotherapies.\n\nKEY INDICATORS:\n1.  Personalized Tumor Neoantigen MRNA Therapy\n2.  Pancreatic Cancer\n3.  Adjuvant Treatment\n4.  Combined with PD-1 Antibody",
+    "category": "Cancer",
+    "key_indicators": [
+      "1.  Personalized Tumor Neoantigen MRNA Therapy",
+      "2.  Pancreatic Cancer",
+      "3.  Adjuvant Treatment",
+      "4.  Combined with PD-1 Antibody"
+    ]
+  }
+]

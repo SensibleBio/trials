@@ -1,0 +1,237 @@
+[
+  {
+    "nct_id": "NCT05565248",
+    "brief_title": "An Open-Label, FIH Study Evaluating the Safety, Tolerability, and Efficacy of VCTX211 Combination Product in Subjects With T1D",
+    "official_title": "An Open-Label, First-in-Human Study Evaluating the Safety, Tolerability, and Efficacy of VCTX211 Combination Product in Subjects With Type 1 Diabetes Mellitus (T1D)",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-01-20",
+    "completion_date": "2025-08",
+    "brief_summary": "This is an open-label, multicenter, Phase 1/2 study evaluating the Safety, Tolerability, and Efficacy of VCTX211 Combination Product in Subjects with T1D",
+    "detailed_description": "VCTX211 combination product (unit) compromises 2 components: (1) allogeneic pancreatic endoderm cells (PEC211) genetically modified using Cluster Regularly Interspaced Short Palindromic Repeats/ CRISPR-associated protein 9 (CRISPR/Cas9) to promote immune evasiveness and survival, and (2) a durable, removable, perforated device designed to deliver and retain PEC211 cells.",
+    "sponsor": "CRISPR Therapeutics AG",
+    "collaborators": [
+      "ViaCyte"
+    ],
+    "conditions": [
+      "Diabetes Mellitus",
+      "Diabetes Mellitus, Type 1",
+      "Glucose Metabolism Disorders",
+      "Metabolic Disease",
+      "Endocrine System Diseases",
+      "Autoimmune Diseases",
+      "Immune System Diseases"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06492304",
+    "brief_title": "A Safety and Efficacy Study Evaluating CTX131 in Adult Subjects With Relapsed/Refractory Hematologic Malignancies",
+    "official_title": "A Phase 1/2 Dose Evaluation and Cohort Expansion Study of the Safety and Efficacy of Anti-CD70 Allogeneic CRISPR-Cas9-Engineered T Cells (CTX131) in Adult Subjects With Relapsed/Refractory Hematologic Malignancies",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-08-13",
+    "completion_date": "2030-11",
+    "brief_summary": "This is an open label, multicenter, phase 1/2 dose evaluation and cohort expansion study evaluating the safety and efficacy of CTX131 in subjects with Relapsed/Refractory Hematologic Malignancies",
+    "detailed_description": "The study may enroll up to 290 subjects in total. CTX131 is a CD70-directed chimeric antigen receptor (CAR) T cell immunotherapy comprised of allogeneic T cells prepared for the treatment of relapsed/refractory hematological malignancies. The cells are from healthy adult volunteer donors that are genetically modified ex vivo using CRISPR-Cas9 (clustered regularly interspaced short palindromic repeats/ CRISPR-associated protein 9) gene editing components (single guide RNA and Cas9 nuclease)",
+    "sponsor": "CRISPR Therapeutics",
+    "collaborators": [],
+    "conditions": [
+      "T Cell Lymphoma",
+      "B Cell Lymphoma",
+      "Acute Myeloid Leukemia"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05795595",
+    "brief_title": "A Safety and Efficacy Study Evaluating CTX131 in Adult Subjects With Relapsed or Refractory Solid Tumors",
+    "official_title": "A Phase 1/2, Open-label, Multicenter, Dose Escalation and Cohort Expansion Study of the Safety and Efficacy of Anti-CD70 Allogeneic CRISPR-Cas9-Engineered T Cells (CTX131) in Adult Subjects With Relapsed or Refractory Solid Tumors",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-03-13",
+    "completion_date": "2030-05",
+    "brief_summary": "This is an open-label, multicenter, Phase 1/2 study evaluating the safety and efficacy of CTX131\u2122 in subjects with relapsed or refractory solid tumors.",
+    "detailed_description": "An open-label, multi-center Phase 1/2 study of CTX131 in subjects with relapsed/refractory solid tumors. CTX131 is an is allogeneic CD70- directed chimeric antigen receptor (CAR) T cell immunotherapy comprised of allogeneic T cells that are genetically modified ex vivo using CRISPR-Cas9 (clustered regularly interspaced short palindromic repeats/ CRISPR associated protein 9) gene editing components (single guide RNA and Cas9 nuclease).",
+    "sponsor": "CRISPR Therapeutics AG",
+    "collaborators": [],
+    "conditions": [
+      "Clear Cell Renal Cell Carcinoma",
+      "Cervical Carcinoma",
+      "Esophageal Carcinoma",
+      "Pancreatic Adenocarcinoma",
+      "Malignant Pleural Mesothelioma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05329649",
+    "brief_title": "Evaluation of Safety and Efficacy of CTX001 in Pediatric Participants With Severe Sickle Cell Disease (SCD)",
+    "official_title": "A Phase 3 Study to Evaluate the Safety and Efficacy of a Single Dose of CTX001 in Pediatric Subjects With Severe Sickle Cell Disease",
+    "overall_status": "RECRUITING",
+    "start_date": "2022-05-02",
+    "completion_date": "2026-05",
+    "brief_summary": "This is a single-dose, open-label study in pediatric participants with severe SCD and hydroxyurea (HU) failure or intolerance. The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 modified CD34+ human hematopoietic stem and progenitor cells (hHSPCs) (CTX001).",
+    "detailed_description": "No detailed description",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "collaborators": [
+      "CRISPR Therapeutics"
+    ],
+    "conditions": [
+      "Sickle Cell Disease",
+      "Hydroxyurea Failure",
+      "Hydroxyurea Intolerance",
+      "Hemoglobinopathies",
+      "Hematological Diseases"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05356195",
+    "brief_title": "Evaluation of Safety and Efficacy of CTX001 in Pediatric Participants With Transfusion-Dependent \u03b2-Thalassemia (TDT)",
+    "official_title": "A Phase 3 Study to Evaluate the Safety and Efficacy of a Single Dose of CTX001 in Pediatric Subjects With Transfusion-Dependent \u03b2-Thalassemia",
+    "overall_status": "RECRUITING",
+    "start_date": "2022-05-03",
+    "completion_date": "2026-05",
+    "brief_summary": "This is a single-dose, open-label study in pediatric participants with TDT. The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 modified CD34+ human hematopoietic stem and progenitor cells (hHSPCs) (CTX001).",
+    "detailed_description": "No detailed description",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "collaborators": [
+      "CRISPR Therapeutics"
+    ],
+    "conditions": [
+      "Beta-Thalassemia",
+      "Thalassemia",
+      "Genetic Diseases, Inborn",
+      "Hematologic Diseases",
+      "Hemoglobinopathies"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05643742",
+    "brief_title": "A Safety and Efficacy Study Evaluating CTX112 in Subjects With Relapsed or Refractory B-Cell Malignancies",
+    "official_title": "A Phase 1/2, Open-Label, Multicenter, Dose Escalation and Cohort Expansion Study of the Safety and Efficacy of Anti-CD19 Allogeneic CRISPR-Cas9-Engineered T Cells (CTX112) in Subjects With Relapsed or Refractory B Cell Malignancies",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-03-10",
+    "completion_date": "2030-02",
+    "brief_summary": "This is an open-label, multicenter, Phase 1/2 study evaluating the safety and efficacy of CTX112\u2122 in subjects with relapsed or refractory B-cell malignancies.",
+    "detailed_description": "This is an open-label, multi-center Phase 1/2 study of CTX112 in subjects with relapsed/refractory B cell malignancies. CTX112 is an is allogeneic CD19-directed chimeric antigen receptor (CAR) T cell immunotherapy comprised of allogeneic T cells that are genetically modified ex vivo using CRISPR-Cas9 (clustered regularly interspaced short palindromic repeats/ CRISPR associated protein 9) gene editing components (single guide RNA and Cas9 nuclease).",
+    "sponsor": "CRISPR Therapeutics AG",
+    "collaborators": [],
+    "conditions": [
+      "B-cell Lymphoma",
+      "Non-Hodgkin Lymphoma",
+      "B-cell Malignancy",
+      "Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)",
+      "Follicular Lymphoma",
+      "Mantle Cell Lymphoma",
+      "Marginal Zone Lymphoma",
+      "Large B-cell Lymphoma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06925542",
+    "brief_title": "A Safety and Efficacy Study Evaluating CTX112 in Adult Subjects With Refractory Autoimmune Disease",
+    "official_title": "A Phase 1 Dose Evaluation Study of the Safety and Preliminary Efficacy of Anti-CD19 Allogeneic CRISPR-Cas9-Engineered T Cells (CTX112) in Adult Subjects With Refractory Autoimmune Disease",
+    "overall_status": "RECRUITING",
+    "start_date": "2025-03-10",
+    "completion_date": "2031-12-31",
+    "brief_summary": "This is a single-arm, open-label, multicenter, ascending dose Phase 1 study evaluating the safety and preliminary efficacy of CTX112 in adult subjects with refractory autoimmune diseases, including active systemic lupus erythematosus (SLE), systemic sclerosis (SSc), or idiopathic inflammatory myopathy (IIM).",
+    "detailed_description": "This study may enroll up to 80 subjects in total. CTX112 is a CD19 directed chimeric antigen receptor (CAR) T cell immunotherapy comprised of allogeneic T cells prepared for the treatment of refractory autoimmune diseases. The cells are from healthy adult volunteer donors that are genetically modified ex vivo using CRISPR-Cas9 (clustered regularly interspaced short palindromic repeats/ CRISPR-associated protein 9) gene editing components (single guide RNA and Cas9 nuclease).",
+    "sponsor": "CRISPR Therapeutics",
+    "collaborators": [],
+    "conditions": [
+      "SLE (Systemic Lupus)",
+      "Lupus Erythematosus, Systemic",
+      "Lupus Nephritis",
+      "Systemic Sclerosis",
+      "Inflammatory Myopathy, Idiopathic",
+      "Myositis",
+      "Diffuse Cutaneous Systemic Sclerosis"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03745287",
+    "brief_title": "A Safety and Efficacy Study Evaluating CTX001 in Subjects With Severe Sickle Cell Disease",
+    "official_title": "A Phase 1/2/3 Study to Evaluate the Safety and Efficacy of a Single Dose of Autologous CRISPR-Cas9 Modified CD34+ Human Hematopoietic Stem and Progenitor Cells (CTX001) in Subjects With Severe Sickle Cell Disease",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2018-11-27",
+    "completion_date": "2025-07",
+    "brief_summary": "This is a single-arm, open-label, multi-site, single-dose Phase 1/2/3 study in subjects with severe sickle cell disease (SCD). The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 Modified CD34+ Human Hematopoietic Stem and Progenitor Cells (hHSPCs) using CTX001.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "collaborators": [
+      "CRISPR Therapeutics"
+    ],
+    "conditions": [
+      "Sickle Cell Disease",
+      "Hematological Diseases",
+      "Hemoglobinopathies"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03655678",
+    "brief_title": "A Safety and Efficacy Study Evaluating CTX001 in Participants With Transfusion-Dependent \u03b2-Thalassemia",
+    "official_title": "A Phase 1/2/3 Study of the Safety and Efficacy of a Single Dose of Autologous CRISPR-Cas9 Modified CD34+ Human Hematopoietic Stem and Progenitor Cells (hHSPCs) in Subjects With Transfusion-Dependent \u03b2-Thalassemia",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2018-09-14",
+    "completion_date": "2025-12-08",
+    "brief_summary": "This is a single-arm, open-label, multi-site, single-dose Phase 1/2/3 study in participans with transfusion-dependent \u03b2-thalassemia (TDT). The study will evaluate the safety and efficacy of autologous CRISPR-Cas9 Modified CD34+ Human Hematopoietic Stem and Progenitor Cells (hHSPCs) using CTX001.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "collaborators": [
+      "CRISPR Therapeutics"
+    ],
+    "conditions": [
+      "Beta-Thalassemia",
+      "Thalassemia",
+      "Genetic Diseases, Inborn",
+      "Hematologic Diseases",
+      "Hemoglobinopathies"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  }
+]

@@ -1,0 +1,15 @@
+{
+    "created": "2025-06-02T09:13:40.111376+00:00",
+    "query_term": null,
+    "sponsor": "AbbVie",
+    "phases": null,
+    "statuses": [
+        "NOT_YET_RECRUITING",
+        "RECRUITING",
+        "ACTIVE_NOT_RECRUITING"
+    ],
+    "limit_requested": 500,
+    "actual_count": 261,
+    "source": "ClinicalTrials.gov API v2",
+    "file_size_bytes": 620004
+}

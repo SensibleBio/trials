@@ -1,0 +1,151 @@
+[
+  {
+    "nct_id": "NCT06634420",
+    "brief_title": "HAELO: A Phase 3 Study to Evaluate NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
+    "official_title": "HAELO: A Phase 3, Multinational, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of NTLA-2002 in Participants With Hereditary Angioedema (HAE)",
+    "overall_status": "RECRUITING",
+    "start_date": "2025-01-15",
+    "completion_date": "2027-09",
+    "brief_summary": "This Phase 3 study aims to evaluate the efficacy and safety of NTLA-2002 compared to placebo in participants with HAE.",
+    "detailed_description": "This is a multinational, multicenter, double-blind, placebo-controlled study in which approximately 60 participants will be randomized in a 2:1 ratio to receive a single IV infusion of NTLA-2002 or placebo. After the Primary Observation Period (Week 1 through Week 28), participants will have the option to receive a blinded, single IV infusion of the opposite treatment. Following the Primary Observation Period, participants will enter the Long-Term Observation Period (76 weeks), for a total of 104 weeks. Including the Screening and Run-In Period, prior to the first blinded dosing, the total study duration is approximately 28 months.",
+    "sponsor": "Intellia Therapeutics",
+    "collaborators": [],
+    "conditions": [
+      "Hereditary Angioedema"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06379789",
+    "brief_title": "A Study to Investigate the Safety and Effectiveness of a Coagulation Factor IX Gene Insertion Therapy (REGV131-LNP1265) in Pediatric, Adolescent and Adult Participants With Hemophilia B",
+    "official_title": "A Two-Part Open-Label Study of REGV131-LNP1265, A CRISPR/Cas9 Based Coagulation Factor IX Gene Insertion Therapy in Participants With Hemophilia B",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-09-11",
+    "completion_date": "2032-12-17",
+    "brief_summary": "Participants in this study have a genetic mutation, specifically in the coagulation (blood clotting) Factor 9 gene that causes severe or moderately severe hemophilia B. This study is researching an experimental gene insertion therapy (the adding of a gene into your DNA) called REGV131-LNP1265, also called the \"study drug\". Gene insertion therapy aims to teach the body how to produce clotting factor long-term, without the need for factor replacement therapy.\n\nThe main aim of this study is to find a safe and well-tolerated dose of the study drug by checking the side effects that may happen from taking it.\n\nThe study is looking at several other research questions including:\n\n* How much study drug is in the blood at different times\n* Whether the body makes antibodies against parts of the study drug, which could make the drug less effective or could lead to side effects. Antibodies are proteins produced by the body's immune system in response to a foreign substance\n* Whether the body makes antibodies against the clotting factor replacement therapy\n* How quality of life is affected by hemophilia B and if it changes after taking study drug\n* How joint health is affected by hemophilia B and if it changes after taking study drug\n* How often visits are required for the emergency room, urgent care center, physician's office, hospital, telephone or online are required as a result of bleeding events, and if the frequency changes after taking study drug\n* How often factor replacement therapy is needed, both on a regular basis for prevention of bleeding, and as needed to treat bleeding events (and it if changes after taking study drug)\n* Whether there is a difference in 2 different methods for measuring Factor 9 activity in the blood",
+    "detailed_description": "The study will be conducted with a 2-part adaptive design, with enrollment of patients into sequential parts of the study.\n\nPart 1: Dose Escalation and Dose Confirmation in adult patients \u226518 years of age\n\n* Dose Escalation Cohorts to determine the recommended dose for expansion (RDE) of REGV131-LNP1265\n* Dose Confirmation Cohort to gain further confidence in safety, tolerability, and Coagulation Factor IX (FIX) functional activity data at the RDE\n\nPart 2: Dose Expansion at the RDE\n\n* Part 2A: Adult patients \u226518 years of age: RDE of REGV131-LNP1265, as determined in Part 1\n* Part 2B: Adolescent patients \\<18 and \u226512 years of age will be administered weight-adjusted RDE\n* Part 2C: Adolescent and Pediatric patients \u22652 to \\<12 years may be enrolled in an age staggered sequential manner; first participants aged \u22656 to \\<12 years and then participants \u22652 to \\<6 years of age and will receive a weight-adjusted RDE",
+    "sponsor": "Regeneron Pharmaceuticals",
+    "collaborators": [
+      "Intellia Therapeutics"
+    ],
+    "conditions": [
+      "Hemophilia B"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06128629",
+    "brief_title": "MAGNITUDE: A Phase 3 Study of NTLA-2001 in Participants With Transthyretin Amyloidosis With Cardiomyopathy (ATTR-CM)",
+    "official_title": "MAGNITUDE: A Phase 3, Multinational, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of NTLA-2001 in Participants With Transthyretin Amyloidosis With Cardiomyopathy (ATTR-CM)",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-12-13",
+    "completion_date": "2028-04",
+    "brief_summary": "To evaluate the efficacy and safety of a single dose of NTLA-2001 compared to placebo in participants with ATTR-CM.",
+    "detailed_description": "This is a multinational, multicenter, double-blind, placebo-controlled study in approximately 765 participants, who will be randomized to receive a single infusion of either NTLA-2001 or placebo.",
+    "sponsor": "Intellia Therapeutics",
+    "collaborators": [
+      "Regeneron Pharmaceuticals"
+    ],
+    "conditions": [
+      "Transthyretin Amyloidosis (ATTR) With Cardiomyopathy"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05120830",
+    "brief_title": "NTLA-2002 in Adults With Hereditary Angioedema (HAE)",
+    "official_title": "Phase 1/2 Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of NTLA-2002 in Adults With Hereditary Angioedema (HAE)",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2021-12-10",
+    "completion_date": "2026-03-31",
+    "brief_summary": "This study will be conducted to evaluate the safety, tolerability, activity, pharmacokinetics, and pharmacodynamics of NTLA-2002 in adults with Hereditary Angioedema (HAE).",
+    "detailed_description": "No detailed description",
+    "sponsor": "Intellia Therapeutics",
+    "collaborators": [],
+    "conditions": [
+      "Hereditary Angioedema"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06672237",
+    "brief_title": "A Phase 3 Study of NTLA-2001 in ATTRv-PN",
+    "official_title": "MAGNITUDE-2: A Phase 3, Multinational, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of NTLA-2001 in Participants With Hereditary Transthyretin Amyloidosis With Polyneuropathy (ATTRv-PN)",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-11-22",
+    "completion_date": "2028-08",
+    "brief_summary": "This study will be conducted to evaluate the efficacy and safety of a single dose of nexiguran ziclumeran (NTLA-2001) compared to placebo in participants with ATTRv-PN.",
+    "detailed_description": "This is a multinational, multicenter, double-blind, placebo-controlled study in approximately 50 participants, who will be randomized 1:1 to receive a single infusion of either nexiguran ziclumeran or placebo. To ensure all participants will have the potential to receive nexiguran ziclumeran, participants will have the option to cross over to the opposite study arm at Month 12 or Month 18, depending on study criteria.",
+    "sponsor": "Intellia Therapeutics",
+    "collaborators": [
+      "Regeneron Pharmaceuticals"
+    ],
+    "conditions": [
+      "Neuromuscular Disease",
+      "Neuromuscular Diseases (NMD)",
+      "Neurodegenerative Disease",
+      "Neurodegenerative Disease, Hereditary",
+      "Neurodegenerative Diseases",
+      "Neuromuscular Diseases",
+      "Nerve Disorders",
+      "Nervous System Disease",
+      "Nervous System Diseases",
+      "Genetic Disease, Inborn",
+      "Amyloidosis, Familial",
+      "Amyloidosis, Hereditary",
+      "Amyloidosis",
+      "Polyneuropathies",
+      "Amyloid Neuropathies",
+      "Amyloid Neuropathies, Familial",
+      "Peripheral Nervous System Disease",
+      "Peripheral Nervous System Diseases",
+      "Metabolism, Inborn Errors",
+      "Metabolic Diseases"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT04601051",
+    "brief_title": "Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of NTLA-2001 in Patients With Hereditary Transthyretin Amyloidosis With Polyneuropathy (ATTRv-PN) and Patients With Transthyretin Amyloidosis-Related Cardiomyopathy (ATTR-CM)",
+    "official_title": "Phase 1 Two-Part (Open-label, Single Ascending Dose (Part 1) and Open-label, Single Dose Expansion (Part 2)) Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of NTLA-2001 in Patients With Hereditary Transthyretin Amyloidosis With Polyneuropathy (ATTRv-PN) and Patients With Transthyretin Amyloidosis-Related Cardiomyopathy (ATTR-CM)",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2020-11-05",
+    "completion_date": "2026-08",
+    "brief_summary": "This study will be conducted to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of NTLA-2001 in participants with hereditary transthyretin amyloidosis with polyneuropathy (ATTRv-PN) and participants with hereditary transthyretin amyloidosis with cardiomyopathy (ATTRv-CM) or wild type cardiomyopathy (ATTRwt-CM)",
+    "detailed_description": "For ATTRv-PN participants, Part 1 consists of an open-label, single-ascending dose study, which identifies the dose for evaluation in the cohort expansion of Part 2. Part 2 will follow as an open-label, dose expansion study to further characterize the activity of NTLA-2001, provide an initial assessment of the effect of NTLA-2001 on clinical measures of neuropathy and neurological function, and obtain additional safety data.\n\nFor ATTR-CM participants, Part 1 consists of an open-label, single-ascending dose study, which identifies the dose for evaluation in the cohort expansion of Part 2. Part 2 will follow as an open-label, dose expansion study to further characterize the activity of NTLA-2001, provide an initial assessment of the effect of NTLA-2001 on cardiac measures, and obtain additional safety data.\n\nAll participants who are dosed with NTLA-2001 will be offered to participate in a long-term safety monitoring follow-up study via a separate protocol.",
+    "sponsor": "Intellia Therapeutics",
+    "collaborators": [],
+    "conditions": [
+      "Transthyretin-Related (ATTR) Familial Amyloid Polyneuropathy",
+      "Transthyretin-Related (ATTR) Familial Amyloid Cardiomyopathy",
+      "Wild-Type Transthyretin Cardiac Amyloidosis"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "nct_id": "NCT04880174",
+    "brief_title": "SARS-COV-2 Seroprevalence and Seroconversion Among Employees of the Universitair Ziekenhuis Brussel Following mRNA COVID-19 Vaccination",
+    "classification": "VERIFICATION: This is not an eligible mRNA interventional trial. While the study involves mRNA COVID-19 vaccination, it is not an interventional trial but rather a prospective and retrospective cohort study to document seroprevalence and seroconversion among employees following mRNA vaccination.\n\nCLASSIFICATION: Not applicable\n\nRATIONALE: The trial is focused on assessing seroprevalence and seroconversion among employees following mRNA COVID-19 vaccination, rather than testing the efficacy or safety of a new mRNA-based therapeutic. It does not involve the administration of an mRNA-based medicine as an intervention to treat a specific condition.\n\nKEY INDICATORS:\n1. Study focuses on documenting SARS-CoV-2 seroprevalence and seroconversion among employees after mRNA vaccination, not testing a new mRNA therapeutic.\n2. The trial aims to assess the immune response to the BNT162b2 (Pfizer) vaccine, not a novel mRNA therapeutic.\n3. The study is described as a monocentric interventional prospective and retrospective cohort study, but the intervention is the vaccination itself, not a new mRNA therapeutic.\n4. The primary objective is to evaluate seroprevalence and seroconversion at different time points post-vaccination, not to assess the efficacy or safety of a novel mRNA therapeutic.",
+    "category": "Not eligible"
+  },
+  {
+    "nct_id": "NCT02885974",
+    "brief_title": "Celecoxib With Chemotherapy in Localized, Muscle-Invasive Bladder Cancer",
+    "classification": "VERIFICATION: This is not an eligible mRNA interventional trial. The trial does not involve an mRNA-based medicine or therapeutic; it focuses on celecoxib combined with chemotherapy for localized, muscle-invasive bladder cancer.\n\nCLASSIFICATION: Not applicable\n\nRATIONALE: The trial does not meet the criteria for an mRNA-based intervention as it does not involve mRNA therapeutics. It focuses on the combination of celecoxib with chemotherapy for bladder cancer treatment, without any mention of mRNA-based medicines.\n\nKEY INDICATORS: \n1. Celecoxib combined with gemcitabine and cisplatin for neoadjuvant treatment of bladder cancer.\n2. Comparison of patient tumor tissue gene expression before and after treatment.\n3. Focus on the effects of celecoxib on tumor cells.\n4. No mention of mRNA interventions or therapeutics in the trial description.",
+    "category": "Not eligible"
+  },
+  {
+    "nct_id": "NCT05513365",
+    "brief_title": "Phase II Dutasteride in Combination With CAB vs CAB in SDC",
+    "classification": "VERIFICATION: This is not an eligible mRNA interventional trial. The trial does not involve mRNA-based medicine or therapeutics. It focuses on the addition of dutasteride to combined androgen blockade therapy in patients with recurrent and/or metastatic salivary duct carcinoma, without any mention of mRNA interventions.\n\nCLASSIFICATION: Not applicable\n\nRATIONALE: The trial focuses on evaluating the addition of dutasteride to combined androgen blockade therapy in patients with recurrent and/or metastatic salivary duct carcinoma. Dutasteride is a 5-alpha-reductase inhibitor, not an mRNA-based therapeutic. The study aims to assess clinical outcomes such as objective response rate, progression-free survival, and overall survival, without involving mRNA technology.\n\nKEY INDICATORS: \n1. Dutasteride addition to combined androgen blockade therapy\n2. Evaluation of clinical outcomes in salivary duct carcinoma patients\n3. Objective response rate, progression-free survival, overall survival assessment\n4. Lack of mention of mRNA-based interventions",
+    "category": "Not eligible"
+  },
+  {
+    "nct_id": "NCT06026774",
+    "brief_title": "Clinical Study of Personalized mRNA Vaccine Encoding Neoantigen in Subjects With Resected Digestive System Neoplasms",
+    "classification": "VERIFICATION: This is an eligible mRNA interventional trial. It involves an interventional study using a personalized mRNA vaccine encoding neoantigen for subjects with resected digestive system neoplasms.\n\nCLASSIFICATION: [1] Cancer\n\nRATIONALE: This clinical trial falls under the category of Cancer. The trial focuses on using a personalized mRNA vaccine encoding neoantigen in combination with standard adjuvant therapy for subjects with resected digestive system neoplasms. The purpose is to activate or augment the immune system specifically for cancer therapy. The trial aims to assess the safety, feasibility, and efficacy of this mRNA-based approach in treating digestive system neoplasms, indicating a clear focus on cancer immunotherapy.\n\nKEY INDICATORS:\n1. Personalized mRNA vaccine encoding neoantigen\n2. Subjects with resected digestive system neoplasms\n3. Assessment of safety, feasibility, and efficacy for cancer therapy\n4. Combination with standard adjuvant therapy",
+    "category": "Cancer"
+  },
+  {
+    "nct_id": "NCT06888674",
+    "brief_title": "Personalized Tumor Neoantigen MRNA Therapy Adjuvant Treatment for Postoperative Pancreatic Cancer.",
+    "classification": "VERIFICATION: This is an eligible mRNA interventional trial. It meets both criteria as an interventional trial involving mRNA-based medicine for the treatment of pancreatic cancer.\n\nCLASSIFICATION: [1] Cancer\n\nRATIONALE: This clinical trial falls under the Cancer category as it involves personalized tumor neoantigen mRNA therapy combined with PD-1 antibody and chemotherapy as adjuvant treatment for postoperative pancreatic cancer. The mRNA therapy aims to target tumor neoantigens to activate the immune system against cancer cells. The combination with PD-1 antibody suggests an immunotherapy approach to enhance the immune response against cancer. Pancreatic cancer is a solid tumor, and the trial focuses on activating the immune system for cancer therapy, aligning with the Cancer category criteria.\n\nKEY INDICATORS:\n1. Personalized tumor neoantigen mRNA therapy\n2. Combination with PD-1 antibody\n3. Adjuvant treatment for postoperative pancreatic cancer\n4. Evaluation of safety and efficacy for pancreatic cancer therapy",
+    "category": "Cancer"
+  }
+]

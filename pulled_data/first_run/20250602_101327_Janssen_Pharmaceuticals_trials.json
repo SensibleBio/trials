@@ -1,0 +1,530 @@
+[
+  {
+    "nct_id": "NCT02938520",
+    "brief_title": "Study to Evaluate the Efficacy, Safety, and Tolerability of Long-acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor in HIV-1 Infected Therapy Naive Participants",
+    "official_title": "A Phase III, Randomized, Multicenter, Parallel-group, Open-Label Study Evaluating the Efficacy, Safety, and Tolerability of Long-Acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor Single Tablet Regimen in HIV-1 Infected Antiretroviral Therapy Naive Adult Participants",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2016-10-27",
+    "completion_date": "2025-12-31",
+    "brief_summary": "The First Long-Acting Injectable Regimen (FLAIR) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult participants whose virus is virologically suppressed on an integrase inhibitor single tablet regimen (INI STR) will remain suppressed after switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). In this study, the INI STR will be limited to abacavir/dolutegravir/lamivudine (ABC/DTG/3TC). FLAIR is a Phase 3, multi-phase, randomized, open label, active-controlled, multicenter, parallel-group, non-inferiority study in HIV-1, anti-retroviral therapy (ART)-na\u00efve adult participants. This study is designed to demonstrate the non-inferior antiviral activity of switching to a two drug CAB LA 400 mg + RPV LA 600 mg regimen every 4 weeks (Q4W: monthly) compared to remaining on ABC/DTG/3TC over 48 weeks (4 weeks oral CAB + RPV, 44 weeks LA therapy). Participants who are HLA-B\\*5701 positive at Screening may enroll into the study and receive DTG plus a non-abacavir containing dual nucleoside reverse transcriptase inhibitor (NRTI) regimen. Eligible participants will enroll into the Induction Phase of the study and receive ABC/DTG/3TC for 20 weeks (Week \\[-20\\] to Day 1). Participants who have an HIV 1 ribose nucleic acid (RNA) \\<50 copies per milliliter (c/mL) at Week (-4) will be randomized (1:1) into the Maintenance Phase at Day 1 to either continue ABC/DTG/3TC or to discontinue ABC/DTG/3TC and begin oral therapy with CAB 30 mg + RPV 25 mg once daily for approximately 4 Weeks, followed by monthly CAB LA + RPV LA injections from visit Week 4b until study completion or withdrawal. Participants who successfully complete Week 100 (without meeting study defined withdrawal criteria and who remain virologically suppressed through Week 96: HIV-1 RNA \\<50 c/mL) will be given the option to switch to the LA arm in the Extension Phase (using an optional oral lead-in with CAB + RPV) or be withdrawn from the study. Participants will continue to receive injections every 4 weeks during the Extension Phase until CAB LA and RPV LA are either locally approved and commercially available, the participant no longer derives clinical benefit, the participant meets a protocol-defined reason for discontinuation, or until development of either CAB LA or RPV LA is terminated.",
+    "detailed_description": "No detailed description",
+    "sponsor": "ViiV Healthcare",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "GlaxoSmithKline"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05117931",
+    "brief_title": "A Study of Amivantamab in People with Esophagogastric Cancer",
+    "official_title": "Phase II Study of Amivantamab in EGFR or MET- Amplified Esophagogastric Cancer",
+    "overall_status": "RECRUITING",
+    "start_date": "2021-12-02",
+    "completion_date": "2025-11",
+    "brief_summary": "The purpose of this study is to see whether the study drug, amivantamab, is an effective treatment for people with EGFR- or MET-amplified esophagogastric cancer. The researchers will also look at whether amivantamab is a safe treatment that causes few or mild side effects in participants.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Esophagogastric Cancer"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05601973",
+    "brief_title": "Amivantamab, Lazertinib and Bevacizumab in Patients With EGFR-mutant Advanced Non-small Cell Lung Cancer With Progression on Previous Third-generation EGFR-TKI",
+    "official_title": "A Multicentre Single-arm Phase II Trial of Amivantamab, Lazertinib Plus Bevacizumab in Patients With EGFR-mutant Advanced NSCLC With Progression on Previous Third-generation EGFR-TKI",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-03-27",
+    "completion_date": "2026-09-30",
+    "brief_summary": "AMAZE-lung is a multicenter single-arm phase II trial. The protocol treatment consists of amivantamab, lazertinib and bevacizumab (Zirabev\u00ae), given in a three-weekly regimen. The primary objective of the trial is to assess the efficacy of amivantamab and bevacizumab added to continued treatment with the third-generation EGFR-TKI lazertinib, in patients with EGFR-mutant advanced NSCLC, who have been previously treated with a third-generation EGFR-TKI in order to provide data on treatment effect and sample size required for a future phase III trial.\n\nIn addition, the safety of the treatment combination will be evaluated.",
+    "detailed_description": "No detailed description",
+    "sponsor": "ETOP IBCSG Partners Foundation",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Non Small Cell Lung Cancer"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03503344",
+    "brief_title": "Apalutamide With or Without Stereotactic Body Radiation in Treating Castration-Resistant Prostate Cancer",
+    "official_title": "A Randomized, Phase II Study of Apalutamide +/- Stereotactic Body Radiotherapy (SBRT) in Castration-Resistant Prostate Cancer Patients With Oligometastatic Disease on PSMA-PET Imaging",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2019-12-17",
+    "completion_date": "2027-01-31",
+    "brief_summary": "This phase II trial studies the how well apalutamide with or without stereotactic body radiation therapy work in treating participants with castration-resistant prostate cancer. Testosterone can cause the growth of prostate cancer cells. Hormone therapy using apalutamide may fight prostate cancer by blocking the use of testosterone by the tumor cells. Stereotactic body radiation therapy uses special equipment to position a patient and deliver radiation to tumors with high precision. This method can kill tumor cells with fewer doses over a shorter period and cause less damage to normal tissue. It is not yet known whether giving apalutamide with or without stereotactic body radiation therapy works better in treating participants with castration-resistant cancer.",
+    "detailed_description": "PRIMARY OBJECTIVE:\n\nI. To demonstrate whether the proportion of patients with an undetectable serum prostate specific antigen (PSA) at 6 months following cessation of apalutamide is higher with addition of stereotactic body radiation therapy (SBRT) to prostate specific membrane antigen (PSMA)-avid oligometastatic sites of disease compared to the group of patients receiving apalutamide monotherapy\n\nSECONDARY OBJECTIVES:\n\nI. To compare the time to PSA progression by Prostate Cancer Working Group (PCWG) criteria between treatment arms.\n\nII. To evaluate the safety and tolerability of apalutamide in combination with SBRT.\n\nEXPLORATORY OBJECTIVES:\n\nI. To characterize the metastatic pattern at baseline and at progression in these patients and to determine whether features of the baseline PSMA-PET scan are associated with treatment outcomes.\n\nOUTLINE: Participants are randomized to 1 of 2 arms.\n\nARM I: Participants receive apalutamide orally (PO) once daily (QD) on days 1-28. Courses repeat every 28 days for up to 52 weeks in the absence of disease progression or unacceptable toxicity. Beginning 60 days after first dose of apalutamide, participants also undergo stereotactic body radiation therapy for 1-5 fractions.\n\nARM II: Participants receive apalutamide PO QD on days 1-28. Courses repeat every 28 days for up to 52 weeks in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, participants are followed at for 30 days.",
+    "sponsor": "University of California, San Francisco",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Castration Levels of Testosterone",
+      "Castration-Resistant Prostate Carcinoma",
+      "PSA Progression",
+      "Stage IV Prostate Adenocarcinoma AJCC v7"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06107738",
+    "brief_title": "Iberdomide and Daratumumab As Maintenance Therapy After an Autologous Stem Cell Transplant for Multiple Myeloma",
+    "official_title": "IBEX: Phase 2 Trial of Iberdomide + SQ Daratumumab As Post-Autologous Stem Cell Transplant Maintenance Therapy in Multiple Myeloma",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-12-21",
+    "completion_date": "2026-12-31",
+    "brief_summary": "The goal of this phase 2 clinical trial is to learn if patients with Multiple Myeloma who are minimal residual disease positive after initial therapy (including an autologous stem cell transplant \\[ASCT\\]) will benefit from maintenance therapy with Iberdomide and subcutaneous (SC) Daratumumab. The main questions it aims to answer are:\n\n* Assess if giving Iberdomide and the SC Daratumumab in the maintenance setting is an effective treatment and warrants further investigation in patients with residual disease\n* Is giving Iberdomide and SC Daratumumab maintenance post ASCT a safe option\n\nParticipants will:\n\n* provide informed consent and complete screening assessments for eligibility within 28 days of starting treatment\n* Screening assessments include specific laboratory tests, a medical history assessment and a physical examination (including temperature, pulse, blood pressure, respirations, height and weight), an assessment of your heart function, a breathing test, cancer imaging, a bone marrow biopsy, minimal residual disease testing (MRD) and a questionnaire\n* If eligible, patients will start treatment with Iberdomide (1.0 mg on day 1-21 of each 28 day cycle, with an increase to 1.3 mg on Cycle 4 if the 1.0 mg dose was tolerated, to a maximum of 26 cycles or progressive disease, whichever is first) and SC Daratumumab (1800 mg SC on days 1, 8, 15 and 22 of cycle 1 and 2, then 1800 mg SC on Day 1 and 15 of cycle 3-6 and 1800 mg SC on Day 1 for cycles 7-26 to a maximum of 26 cycles or progressive disease, whichever is first)\n* while receiving treatment on study, physical exams (including temperature, pulse, blood pressure, respirations, height and weight), toxicity assessments, laboratory assessments and questionnaires will be done at various times over the course of the 26 cycles\n* an MRD assessment is required at 6, 12 and 24 months after starting treatment\n* End of treatment will occur once 26 cycles are completed, or cancer has progressed whichever comes first. At that time, specific laboratory tests, a physical examination (including temperature, pulse, blood pressure, respirations, height and weight), cancer imaging, a bone marrow biopsy and minimal residual disease testing (MRD) will occur.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Barbara Ann Karmanos Cancer Institute",
+    "collaborators": [
+      "Bristol-Myers Squibb",
+      "Janssen Pharmaceuticals",
+      "Multiple Myeloma Research Consortium"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06816992",
+    "brief_title": "ORIC-114 in Combination with Subcutaneous Amivantamab in Patients with EGFR Exon20 Insertion Mutant NSCLC",
+    "official_title": "Phase 1b Study of ORIC-114 in Combination with Amivantamab in Patients with EGFR Exon20 Insertion Mutant NSCLC",
+    "overall_status": "RECRUITING",
+    "start_date": "2025-02-27",
+    "completion_date": "2027-05",
+    "brief_summary": "The purpose of this study is to establish the recommended phase 2 dose (RP2D), safety, pharmacokinetics (PK), pharmacodynamics (PD), and preliminary antitumor activity of ORIC-114 in combination with subcutaneous (SC) amivantamab in patients with advanced or metastatic NSCLC harboring an EGFR exon 20 insertion mutation.",
+    "detailed_description": "ORIC-114, is a brain penetrant, selective, orally bioavailable, irreversible small molecule inhibitor designed to target EGFR exon 20 insertion mutations, making it a promising therapeutic candidate for development in patients whose tumors harbor these alterations, including those with CNS metastases.\n\nAmivantamab is a bispecific EGFR-directed and MET receptor-directed antibody indicated in combination with carboplatin and pemetrexed for the first line treatment of patients with locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations and also as a single agent in patients with locally advanced or metastatic NSCLC with EGFR exon 20 insertion mutations whose disease has progressed on or after platinum-based chemotherapy.\n\nThis is an open-label, single arm, multicenter, dose escalation followed by dose expansion study to assess the safety and preliminary antitumor activity of ORIC-114 in combination with SC amivantamab, in patients with locally advanced or metastatic NSCLC harboring an EGFR exon 20 insertion mutations.",
+    "sponsor": "ORIC Pharmaceuticals",
+    "collaborators": [
+      "Janssen Research and Development LLC"
+    ],
+    "conditions": [
+      "Solid Tumors",
+      "EGFR Exon 20 Insertion Mutations",
+      "NSCLC",
+      "EGFR-mutated NSCLC"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT04983030",
+    "brief_title": "Safety, Immunogenicity, Efficacy of Ad26.Mos4.HIV, MVA-BN-HIV and PGT121, PGDM1400, and VRC07-523LS in HIV-1-Infected Adults",
+    "official_title": "A Safety, Immunogenicity and Efficacy Phase 1/2a Study of a Heterologous Ad26.Mos4.HIV, MVA-BN-HIV Vaccine Regimen Plus Broadly Neutralizing Antibodies PGT121, PGDM1400, and VRC07-523LS in HIV-1-Infected Adults on Suppressive ART",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2022-04-01",
+    "completion_date": "2026-04-30",
+    "brief_summary": "A multicenter, randomized, parallel-group, placebo-controlled, double-blind, Phase 1/2a clinical study to investigate the safety, tolerability, immunogenicity and exploratory efficacy of a vaccine regimen consisting of an Ad26.Mos4.HIV prime and a boost with Modified Vaccinia Ankara (MVA)-BN-HIV in combination with broadly neutralizing antibodies (bNAb) PGT121, PGDM1400, and VRC07-523LS in human immunodeficiency virus type 1 (HIV-1)-infected study participants on suppressive anti-retroviral therapy (ART).",
+    "detailed_description": "The study will enroll 36 adults randomized in a 1:1:1 ratio to 3 groups (vaccines+ bNAbs, vaccine+placebo, placebo+bNAbs), respectively. The study population will include HIV-infected adults who are on suppressive ART for at least 48 weeks prior to screening. The study comprises of a screening period of 10 weeks (Stage 0), a 24-week vaccination and follow-up period (Stage 1), a 4-week bNAb administration period and a 20-week bNAb washout period (Stage 2), and a 24-week monitoring period (Stage 3). An analytical antiretroviral treatment interruption (ATI) to assess rates of sustained virologic suppression will be conducted during Stages 2-3. Participants will record solicited signs and symptoms in a diary on the evening after each study drug administration and then daily for the next 7 days. Further safety evaluations will include monitoring of AEs, physical examinations, vital sign measurements, clinical laboratory tests (including urinalysis, CD4 count and HIV RNA), and for women, also pregnancy testing. Blood samples will be taken at specific clinic visits to assess immune and virologic responses as well as the pharmacokinetics and pharmacodynamics of bNAbs.",
+    "sponsor": "Boris Juelg, MD PhD",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "Harvard School of Public Health (HSPH)",
+      "National Institute of Allergy and Infectious Diseases (NIAID)"
+    ],
+    "conditions": [
+      "HIV",
+      "Acquired Immunodeficiency Syndrome",
+      "Immunologic Deficiency Syndrome, Acquired",
+      "Sexually Transmitted Diseases, Viral",
+      "Retroviridae Infections"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT04667663",
+    "brief_title": "CPD-DARA in Patients With Relapsed/Refractory Multiple Myeloma.",
+    "official_title": "Phase Ib of Cyclophosphamide, Pomalidomide, Dexamethasone and Daratumumab (CPD-DARA) in Patients With Relapsed/Refractory Multiple Myeloma. (The CPD-DARA Study)",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2021-12-08",
+    "completion_date": "2026-04-30",
+    "brief_summary": "This study is a Phase Ib, open label, single arm, adaptive multi-centre clinical study. The target population for this study are patients with relapsed/refractory multiple myeloma (MM). Patients will have a confirmed diagnosis of MM, with measurable disease as per IMWG criteria, in the second relapse and beyond (third line of therapy and beyond). Patients will need to have exposure to lenalidomide and a proteasome inhibitor. Patients will be treated with Cyclophosphamide-Pomalidomide-Dexamethasone (CPD) in combination with daratumumab (DARA) to determine the Maximum Tolerated Dose (MTD), Dose Limiting Toxicity (DLT) and Recommended Phase II Dose (RP2D) of the combination.\n\nPomalidomide will be administered orally at three dose levels 4, 3 and 2mg on days 1-21 of each 28-day cycle. Treatment will be repeated on day 1 of a 28-day cycle until disease progression, unacceptable toxicity, withdrawal of consent, physician's decision, or sponsor's decision to terminate the study, whichever occurs first.",
+    "detailed_description": "Primary Objective 1. To determine the MTD and RP2D for pomalidomide that can safely be administered with DARA and cyclophosphamide.\n\nPrimary Endpoint\n\n1. To determine the incidence of DLT within the first cycle of CPD in combination with DARA at each dose level.\n\nSecondary Objectives\n\n1. To evaluate the safety and tolerability of the CPD-DARA regimen.\n2. To evaluate efficacy measures. Secondary Endpoints\n\n1. Safety will be assessed by standard clinical and laboratory tests (haematology, serum chemistry). Adverse events grade will be defined by the NCI CTCAE (National Cancer Institute Common Terminology Criteria for Adverse Events) version 5.0.\n\n2. The following efficacy endpoints will be measured: i. Complete Response (CR) rate after six cycles of CPD-DARA and at the end of study treatment.\n\nii. Best Overall Response. iii. Minimal Residual Disease (MRD) negative rate after six cycles of CPD-DARA. iv. Progression Free Survival (PFS) and Overall Survival (OS) at 6 months and 2 years.\n\nv. Time to Response. Exploratory Objectives\n\n1. To assess effect of CPD-DARA treatment on patient-reported outcomes and quality of life.\n2. Efficacy according to the IMWG (International Myeloma Working Group) in High Risk vs Standard Risk patients.\n3. Disease Control Rate (DCR). Exploratory Endpoints\n\n1. To assess effect of CPD-DARA treatment on patient-reported outcomes and quality of life, as assessed by the FACT-G and MyPOS questionnaires completed at study commencement, at every cycle of study treatment and at completion of the study treatment.\n\n2. Efficacy according to the IMWG in High Risk (defined by ISS stage 3 and/or high-risk cytogenetic findings including t(4;14), t(14;16), and del17p) vs Standard Risk patients.\n\n3. Disease Control Rate (DCR) defined as stable disease or better.",
+    "sponsor": "Cancer Trials Ireland",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "Bristol-Myers Squibb"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06066346",
+    "brief_title": "A Study of Talquetamab for People with Multiple Myeloma Who Have Received BCMA CAR T-Cell Therapy",
+    "official_title": "Talquetamab Consolidation After BCMA CART Cell Therapy for Relapsed or Refractory Multiple Myeloma",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-09-27",
+    "completion_date": "2026-10",
+    "brief_summary": "The researchers are doing this study to find out whether talquetamab is an effective treatment after BCMA CAR Tcell therapy for people with relapsed or refractory multiple myeloma. All participants in this study will have already received the BCMA CAR T-cell therapy ide-cel for their disease.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03283917",
+    "brief_title": "Daratumumab, Ixazomib, and Dexamethasone in AL Amyloidosis",
+    "official_title": "A Safety Study of Daratumumab, Ixazomib, and Dexamethasone in AL Amyloidosis",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2018-02-07",
+    "completion_date": "2025-05-18",
+    "brief_summary": "This phase I trial studies the side effects and best dose of daratumumab, ixazomib, and dexamethasone in treating participants with amyloid light chain amyloidosis. Monoclonal antibodies, such as daratumumab, may interfere with the ability of tumor cells to grow and spread. Drugs used in chemotherapy, such as ixazomib and dexamethasone, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving daratumumab, ixazomib, and dexamethasone may be effective in treating participants with light chain amyloidosis.",
+    "detailed_description": "PRIMARY OBJECTIVES:\n\nI. To confirm the safety and tolerability of daratumumab, ixazomib, and dexamethasone (DId) in patients with amyloid light chain (AL) amyloidosis.\n\nII. To determine the recommended phase 2 dose (RP2D) of daratumumab, ixazomib, and dexamethasone in subjects with AL amyloidosis.\n\nSECONDARY OBJECTIVES:\n\nI. To determine the hematologic response rate of daratumumab, ixazomib, and dexamethasone in patients with AL amyloidosis.\n\nII. To determine cardiac and renal organ response rate of daratumumab, ixazomib, and dexamethasone in patients with AL amyloidosis.\n\nIII. To determine time to next therapy. IV. To determine the time to response. V. To determine the duration of response. VI. To determine progression free survival (PFS). VII. To determine overall survival (OS).\n\nOUTLINE: This is a dose-escalation study of dexamethasone.\n\nParticipants receive daratumumab intravenously (IV) over 3.5-6.5 hours on days 1, 8, 15, and 22 of courses 1-2, on days 1 and 15 of courses 3-6, and on day 1 of courses 7-12. Participants also receive ixazomib orally (PO) on days 1, 8, and 15, and dexamethasone IV over 15 minutes or PO on days 1, 8, 15, and 22. Treatment repeats every 28 days for up to 12 courses in the absence of disease progression or unaccepted toxicity.\n\nAfter completion of study treatment, participants are followed up at 30 days and then every 90 days for 24 months.",
+    "sponsor": "M.D. Anderson Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "Takeda"
+    ],
+    "conditions": [
+      "Newly Diagnosed Primary Amyloidosis",
+      "Recurrent Primary Amyloidosis",
+      "Refractory Primary Amyloidosis"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE1"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06083922",
+    "brief_title": "A Study of CyBorD (Cyclophosphamide, Bortezomib, Dexamethasone) Plus Daratumumab in People With Monoclonal Gammopathy of Renal Significance (MGRS)",
+    "official_title": "A Phase II Study of CyBorD (Cyclophosphamide, Bortezomib, Dexamethasone) Plus Daratumumab for Patients With Monoclonal Gammopathy of Renal Significance (MGRS)",
+    "overall_status": "RECRUITING",
+    "start_date": "2023-10-16",
+    "completion_date": "2026-10",
+    "brief_summary": "The purpose of this study is to find out whether cyclophosphamide, bortezomib, dexamethasone (CyBorD) with daratumumab SC is a safe treatment combination for MGRS-associated kidney disease including cast nephropathy associated with multiple myeloma. In addition, the researchers will find out whether the study drug combination is an effective treatment for these conditions.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Multiple Myeloma",
+      "Monoclonal Gammopathy of Renal Significance"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03899155",
+    "brief_title": "Pan Tumor Rollover Study",
+    "official_title": "Pan-Tumor Study for Long-term Treatment of Cancer Patients Who Have Participated in BMS Sponsored Trials Investigating Nivolumab and Other Cancer Therapies",
+    "overall_status": "RECRUITING",
+    "start_date": "2019-08-09",
+    "completion_date": "2029-08-25",
+    "brief_summary": "Main Objective of this study is to examine long-term safety of nivolumab monotherapy including combinations and other cancer therapies in various tumor types.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Bristol-Myers Squibb",
+    "collaborators": [
+      "Exelixis",
+      "Novartis",
+      "Clovis Oncology, Inc.",
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Cancer"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT04775550",
+    "brief_title": "DARA RVD For High Risk SMM",
+    "official_title": "B- PRISM (Precision Intervention Smoldering Myeloma): A Phase II Trial of Combination of Daratumumab, Bortezomib, Lenalidomide and Dexamethasone in High- Risk Smoldering Multiple Myeloma",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2021-03-08",
+    "completion_date": "2030-12-08",
+    "brief_summary": "The purpose of this research study is to learn whether the combination of daratumumab SC ( Darzalex Faspro), lenalidomide (Revlimid), bortezomib (Velcade) and dexamethasone works in treating smoldering multiple myeloma and preventing progression to active or symptomatic multiple myeloma.\n\nThe names of the study drugs involved in this study are:\n\n* Daratumumab (also called Darzalex Faspro)\n* Bortezomib (also called Velcade)\n* Lenalidomide (also called Revlimid)\n* Dexamethasone",
+    "detailed_description": "The purpose of this research study is to learn whether the combination of daratumumab (Darzalex Faspro), lenalidomide (Revlimid), bortezomib (Velcade) and dexamethasone works in treating smoldering multiple myeloma and preventing progression to active or symptomatic multiple myeloma.\n\nThis combination of drugs are considered \"investigational\" which means it has not been approved in this combination for smoldering myeloma by the United States Food and Drug Administration.\n\nThe research study procedures include screening for eligibility and study treatment including evaluations and follow up visits\n\nThe names of the study drugs involved in this study are:\n\n* Daratumumab (also called Darzalex Faspro)\n* Bortezomib (also called Velcade)\n* Lenalidomide (also called Revlimid)\n* Dexamethasone\n\nParticipants may be treated for up to 24 months and will be followed for up to 3 years.\n\nIt is expected that about 30 people will take part in this research study.\n\nThis research study is a Phase II clinical trial, which tests the effectiveness of an investigational drug(s). The investigational drugs used in this research study are daratumumab (Darzalex Faspro), lenalidomide (Revlimid), bortezomib (Velcade) and dexamethasone. \"Investigational\" means that the FDA (the U.S. Food and Drug Administration) has not approved the combination of daratumumab (Darzalex Faspro), lenalidomide (Revlimid), bortezomib (Velcade) and dexamethasone as a treatment regimen for the specific disease.",
+    "sponsor": "Omar Nadeem, MD",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "High-risk Smoldering Multiple Myeloma",
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03290950",
+    "brief_title": "A Study of Daratumumab in Patients With Newly Diagnosed Multiple Myeloma",
+    "official_title": "Daratumumab, Carfilzomib, Lenalidomide, and Dexamethasone in Newly-Diagnosed Multiple Myeloma: A Clinical and Correlative Phase II Study",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2017-09-25",
+    "completion_date": "2025-09",
+    "brief_summary": "This is a study to test the safety and effectiveness of the study drug, daratumumab in combination with carfilzomib, lenalidomide and dexamethasone. The purpose of this study is to test whether giving daratumumab along with the other drugs (carfilzomib, lenalidomide and dexamethasone) is safe for patients.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT02951052",
+    "brief_title": "Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Long-acting Cabotegravir Plus Long-acting Rilpivirine From Current Antiretroviral Regimen in Virologically Suppressed HIV-1-infected Adults",
+    "official_title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Long-acting Cabotegravir Plus Long-acting Rilpivirine From Current INI- NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-infected Adults Who Are Virologically Suppressed",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2016-10-28",
+    "completion_date": "2025-12-31",
+    "brief_summary": "The Antiretroviral Therapy as Long Acting Suppression (ATLAS) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult subjects with current viral suppression on a regimen with 2 nucleoside reverse transcriptase inhibitors (NRTIs) plus a third agent, remain suppressed upon switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). This is a Phase 3, multi-phase, randomized, open label, active-controlled, multicenter, parallel-group, non-inferiority study in HIV-1, antiretroviral therapy (ART)-adult subjects who are stably suppressed on a current antiretroviral (ARV) regimen. This study is designed to demonstrate the non-inferior antiviral activity of switching to a two drug CAB LA 400 mg + RPV LA 600 mg regimen every 4 weeks (Q4W: monthly) compared with maintenance of current ARV regimen containing 2 NRTIs plus an INI, NNRTI, or a PI. Eligible subjects will be randomized (1:1) into the Maintenance Phase at Day 1 to either continue current ART or switch to initiate oral therapy with CAB 30 mg + RPV 25 mg once daily for 4 Weeks followed by Q4 weekly (monthly) CAB LA + RPV LA injections. Following the Maintenance phase at Week 52, subjects who were randomized to continue their current ART regimen will be given an option to switch to CAB LA + RPV LA injections. Those subjects would transition to LA dosing, beginning with 4 weeks oral CAB + RPV therapy at Week 52, and receive the first IM CAB LA + RPV LA injections at Week 56.",
+    "detailed_description": "No detailed description",
+    "sponsor": "ViiV Healthcare",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "GlaxoSmithKline"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus",
+      "HIV Infections"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT05546242",
+    "brief_title": "Improving HIV-1 Control in Africa with Long Acting Antiretrovirals",
+    "official_title": "A Phase 3b Randomised, Multicentre, Open-label Study Evaluating the Effectiveness of Switching to Two-monthly Long-acting Injectable Cabotegravir and Rilpivirine from First-line Oral Antiretroviral Therapy in HIV-1 Positive Virologically Suppressed Adults with a History Of, or At Risk Of, Sub-optimal HIV Control in Sub-Saharan Africa",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2022-12-08",
+    "completion_date": "2026-03",
+    "brief_summary": "IMPALA is a randomized, open-label, multicenter, interventional study of 540 virologically suppressed HIV-1 infected adults who have a history of sub-optimal adherence to daily oral ART and/or engagement in HIV care. The study will seek to demonstrate non-inferior antiviral effectiveness of the 2-monthly long-acting injectable combination of cabotegravir/rilpivirine as compared to continuation of first line oral antiretroviral therapy.",
+    "detailed_description": "IMPALA is a randomized, open-label, multicenter, interventional study of 540 virologically suppressed (\\<200 c/mL) HIV-1 infected adults (18 years or older) who have a history of sub-optimal adherence to daily oral ART and/or engagement in HIV care. IMPALA seeks to demonstrate the non-inferior antiviral effectiveness of switching to long acting injectable rilpivirine (RPV LA) plus long acting injectable cabotegravir (CAB LA) given every 2 months (Q2M CAB LA + RPV LA) by IM compared to the continuation of first-line daily oral ART containing 2 nucleoside reverse transcriptase inhibitor (NRTIs) plus an integrase strand transfer inhibitor (INSTI; dolutegravir \\[DTG\\]).\n\nAfter providing written informed consent, participants will be evaluated for eligibility during the screening period. Participants who are viremic (HIV VL \\>200 c/mL) at the time of screening will be virologically suppressed (for \\>3 months) on a regimen of 2 NRTIs plus DTG prior to randomization. On Day 1 virologically suppressed (\\<200 c/mL for at least 3 months) individuals will be randomized 1:1 to either continue daily oral ART (2 NRTI + DTG, control arm), or switch to Q2M CAB LA + RPV LA IM, the intervention arm. Those randomized to the intervention arm will be offered either optional oral lead-in (OLI) of 1 month daily oral CAB and RPV or a direct to injection (DTI) approach. This decision to dose with or without an OLI Phase will be determined by the study participant following the informed consent discussion with the investigator. The total duration of the study will be 24 months. Any participant who has received at least a single dose of CAB LA + RPV LA and discontinues the regimen for any reason before Month 24 must start suppressive daily oral ART within 2 months of the last injection. There will be an optional real-world extension phase, provided the regimen is deemed to be non-inferior at Month 12 and 24.",
+    "sponsor": "MRC/UVRI and LSHTM Uganda Research Unit",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "HIV-1-infection"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE3"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06358638",
+    "brief_title": "Sickle Cell Disease Transplant Using a Nonmyeloablative Approach for Patients With Anti-donor Red Cell AntibodY",
+    "official_title": "Sickle Cell Disease Transplant Using a Nonmyeloablative Approach: Adding Daratumumab for Patients With Anti-donor Red Cell AntibodY",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-04-03",
+    "completion_date": "2054-09",
+    "brief_summary": "This multicenter prospective study seeks to determine if daratumumab given, prior to HLA-identical sibling donor transplantation using alemtuzumab, low dose total-body irradiation, and sirolimus, can prevent pure red blood cell aplasia with an acceptable safety profile in patients with anti-donor red blood cell antibodies, achieving an event-free survival similar to transplanted patients without such antibodies.",
+    "detailed_description": "This study addresses an important question: Can daratumumab safely be administered prior to matched sibling donor (MSD) nonmyeloablative hematopoietic cell transplant (HCT) for SCD to avoid pure red blood cell aplasia in patients at risk of this complication? and thus achieve an event-free survival similar to patients without anti-donor red blood cell (RBC) antibodies?\n\nPatients with anti-donor RBC antibodies, which includes patients with major ABO mismatch and other RBC alloantibodies against donor, have largely been excluded from the nonmyeloablative HCT approach given their risk of delayed donor RBC engraftment and/or hemolysis post-HCT. Exclusion of these patients limits access to less toxic curative therapies for this population at risk for toxicity due to their underlying multisystem disease. To address this need, we propose a multicenter clinical trial of Sickle cell disease Using a Nonmyeloablative approach: adding daratumumab for patients with anti-donor Red cell AntibodY (SUN-RAY). If successful, this trial will increase access to MSD nonmyeloablative HCT in SCD and will provide important safety and efficacy data for the use of daratumumab in the pre-HCT setting as well as in patients with SCD who have limited RBC donor options due to alloimmunization.\n\nThis is a phase 2 study given that the studied nonmyeloablative conditioning backbone (alemtuzumab, 300 cGY TBI, sirolimus) has been previously used effectively in both adults and children with SCD. Daratumumab will be added to this backbone with a washout period of 4 weeks prior to HCT infusion. Small case series have demonstrated that daratumumab is well tolerated either pre-HCT to treat patients with antibodies against mismatched donor HLA antigens, or post-HCT in patients with autoimmune cytopenias. The experience of the phase 2 clinical trial NCT03384654 studying daratumumab in pediatric acute lymphoblastic leukemia provides additional support for the safety and dosing of daratumumab for this study.",
+    "sponsor": "Children's National Research Institute",
+    "collaborators": [
+      "Alberta Children's Hospital",
+      "The Hospital for Sick Children",
+      "Levine Children's Hospital",
+      "Ann & Robert H Lurie Children's Hospital of Chicago",
+      "Nationwide Children's Hospital",
+      "Children's Hospital at Montefiore",
+      "Doris Duke Charitable Foundation",
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Sickle Cell Disease"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03556332",
+    "brief_title": "A Study of Carfilzomib, Lenalidomide, Dexamethasone and Daratumumab for Patients With Relapsed/Refractory Myeloma With Salvage Autologous Hematopoietic Cell Transplantation",
+    "official_title": "Phase 2 Trial of Intensive Chemo-immunotherapy With Carfilzomib, Lenalidomide, Dexamethasone and Daratumumab for Relapsed/Refractory Myeloma in the Context of Salvage Autologous Hematopoietic Cell Transplantation",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2018-07-02",
+    "completion_date": "2026-07",
+    "brief_summary": "The purpose of this study is to test any good and bad effects of giving a combination of study drugs before and after autologous stem cell transplant.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT03236428",
+    "brief_title": "Phase II Study of the CD38 Antibody Daratumumab in Patients With High-Risk MGUS and Low-Risk Smoldering Multiple Myeloma",
+    "official_title": "A Phase II Study of the CD38 Antibody Daratumumab in Patients With High-Risk MGUS and Low-Risk Smoldering Multiple Myeloma",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2017-11-24",
+    "completion_date": "2026-10-04",
+    "brief_summary": "This research study is studying a drug as a possible treatment for Monoclonal Gammopathy of Unknown Significance (MGUS) or Smoldering Multiple Myeloma (SMM).\n\nThe drug involved in this study is:\n\n-Daratumumab",
+    "detailed_description": "This research study is a Phase II clinical trial, which tests the effectiveness of an investigational drug. Preliminary experience suggests that daratumumab may prevent or postpone SMM from becoming active multiple myeloma. The purpose of this research study is to determine if the this drug may improve the rate of prevention of multiple myeloma.\n\nMultiple myeloma is a cancer of the plasma cell, which is an important part of the immune system. Patients with active multiple myeloma generally require treatment. There are currently no approved therapies for smoldering multiple myeloma or Monoclonal Gammopathy of Unknown Significance.\n\nDaratumumab is a drug that may kill or stop cancer cells from growing through a variety of mechanisms by attaching to the CD38 molecule, which is over-expressed in multiple myeloma cells. This type of drug is called a monoclonal antibody. The FDA (the U.S. Food and Drug Administration) has not approved Daratumumab for the participant specific disease but it has been approved for use in active Multiple Myeloma.",
+    "sponsor": "Dana-Farber Cancer Institute",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "Multiple Myeloma Research Consortium",
+      "Blood Cancer Research Partnership",
+      "The Leukemia and Lymphoma Society"
+    ],
+    "conditions": [
+      "Monoclonal Gammopathy",
+      "Smoldering Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT02772588",
+    "brief_title": "AASUR in High Risk Prostate Cancer",
+    "official_title": "ARN-509+Abiraterone Acetate+Leuprolide With Stereotactic, Ultra-Hypofractionated Radiation (AASUR) in Very High Risk Prostate Cancer: A Single Arm, Phase II Study",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2016-05",
+    "completion_date": "2026-05",
+    "brief_summary": "The purpose of this study is to determine whether anti-testosterone medications, when administered before, during, and after high-dose, precision radiation, will be effective in preventing the prostate cancer from returning.",
+    "detailed_description": "No detailed description",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "collaborators": [
+      "Janssen Pharmaceuticals",
+      "Weill Medical College of Cornell University",
+      "University of Michigan"
+    ],
+    "conditions": [
+      "Prostate Cancer"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT04268498",
+    "brief_title": "A Study of Daratumumab, Carfilzomib, Lenalidomide, and Dexamethasone in Patients With Newly-Diagnosed Multiple Myeloma",
+    "official_title": "Phase 2, Open-Label Randomized Study of Daratumumab, Carfilzomib, Lenalidomide, and Dexamethasone vs Carfilzomib, Lenalidomide, and Dexamethasone in Patients With Newly Diagnosed Multiple Myeloma",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "start_date": "2020-02-11",
+    "completion_date": "2027-02-01",
+    "brief_summary": "This study is being done to find out whether carfilzomib, lenalidomide, and dexamethasone (KRD) or KRD and Daratumumab (KRD+DARA) might be safer and more effective ways of controlling multiple myeloma than the standard of care treatment, which is lenalidomide, bortezomib, and dexamethasone (VRD).",
+    "detailed_description": "Per protocol amendment version 4.0 (May 23, 2022), Arm A will be closed and no additional participants will be enrolled in this arm.",
+    "sponsor": "University of Miami",
+    "collaborators": [
+      "Amgen",
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [],
+    "phases": [
+      "PHASE2"
+    ],
+    "study_type": "INTERVENTIONAL"
+  },
+  {
+    "nct_id": "NCT06232551",
+    "brief_title": "Alerting Providers at Patient Hospital Discharge to Consider Prescribing Rivaroxaban to Reduce Venous Thromboembolism",
+    "official_title": "eVTE (Electronic Venous Thromboembolism): A Cluster, Randomized, Step-wedge Type II Hybrid Study of an Alert Recommending Extended Duration Thromboprophylaxis for At-risk Discharging Medical Patients to Prevent VTE.",
+    "overall_status": "RECRUITING",
+    "start_date": "2024-06-01",
+    "completion_date": "2025-09-30",
+    "brief_summary": "A new algorithm derived from only patient age and components of the complete blood count and basic metabolic panel can identify patients discharged from the hospital who may benefit from a blood thinner (called rivaroxaban) to decrease their risk of blood clots, and for whom the risk of bleeding is minimal.\n\nThe purpose of this study is to evaluate the use of a pop-up alert, which will be seen by clinicians when a discharging patient has been identified as being someone for whom the risk of blood clots is high, but for whom bleeding risk is estimated to be low.\n\nThe pop-up alert will be enabled in a sequential fashion for each group of hospitals in 1 month blocks. We will look to see if the pop-up alert changes the number of patients who receive rivaroxaban. We will also measure the outcomes of blood clots and bleeding among all discharging patients.",
+    "detailed_description": "The goal of this prospective, cluster, randomized, type II hybrid step wedge, implementation/effectiveness study is to compare the rates of rivaroxaban prescription for extended duration thromboprophylaxis (EDT) in discharging medical patients during the baseline period when no alert informs decision-making to guide EDT, versus EDT prescription during the intervention period when an alert to the discharging clinician is delivered.\n\nGrouped sequential hospitals will be introduced to the intervention randomly in a step wedge fashion.\n\nAim 1 is to assess the implementation of the alert to discharging clinicians caring for eligible hospitalized medical patients. The primary outcome for Aim 1 is the comparative rate of prescription of EDT (rivaroxaban 10 mg daily for 30 days) during the baseline period versus the intervention period among eligible patients.\n\nSecondary outcomes for Aim 1 will capture interactions with the alert.\n\nAim 2 is to assess the impact of the alert on important patient clinical outcomes.\n\nThe primary efficacy outcome for Aim 2 is the composite of 90-day venous thromboembolism, non-hemorrhagic stroke, myocardial infarction and death.\n\nThe primary safety outcome for Aim 2 is 30-day major bleeding. Secondary outcomes for Aim 2 will be the net clinical benefit, defined as the primary outcome + the primary safety outcome during the baseline phase versus the intervention phase among all at risk patients, and all patients for which an alert leads to the prescription of EDT.\n\nAdditional secondary outcomes will report components of the primary efficacy and safety outcomes in various groups.",
+    "sponsor": "Scott C. Woller, MD",
+    "collaborators": [
+      "Janssen Pharmaceuticals"
+    ],
+    "conditions": [
+      "Venous Thromboembolic Disease",
+      "Pulmonary Embolism and Thrombosis",
+      "Deep Vein Thrombosis",
+      "Hospitalism"
+    ],
+    "interventions": [],
+    "phases": [
+      "NA"
+    ],
+    "study_type": "INTERVENTIONAL"
+  }
+]

@@ -1,0 +1,15 @@
+{
+    "created": "2025-06-02T09:12:08.613581+00:00",
+    "query_term": "mRNA",
+    "sponsor": null,
+    "phases": null,
+    "statuses": [
+        "NOT_YET_RECRUITING",
+        "RECRUITING",
+        "ACTIVE_NOT_RECRUITING"
+    ],
+    "limit_requested": 500,
+    "actual_count": 457,
+    "source": "ClinicalTrials.gov API v2",
+    "file_size_bytes": 1346036
+}
