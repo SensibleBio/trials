@@ -9,8 +9,8 @@ from typing import List, Dict, Optional, Any
 # Assuming this script is run from the project root
 sys.path.append('.')
 
-from fetch_trials import fetch_and_save_trials, load_trials_json
-from dataset_manager import merge_datasets, load_dataset, save_dataset_metadata, _prepare_metadata_for_saving, deduplicate_trials, _save_dataset_json
+from .fetch_trials import fetch_and_save_trials, load_trials_json
+from .dataset_manager import merge_datasets, load_dataset, save_dataset_metadata, _prepare_metadata_for_saving, deduplicate_trials, _save_dataset_json
 
 # Configure logging
 logging.basicConfig(

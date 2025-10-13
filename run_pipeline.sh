@@ -6,7 +6,7 @@
 PIPELINE_QUERY_TERM="mRNA"
 
 # Maximum number of trials to fetch per API call (integer)
-PIPELINE_LIMIT="500" # Increased limit to 500
+PIPELINE_LIMIT="5" 
 
 # Path to the JSON file containing company names
 PIPELINE_COMPANIES_FILE="prompts/reference_data/mrna_companies.json"
@@ -30,7 +30,7 @@ mkdir -p $PIPELINE_OUTPUT_FOLDER
 
 # Run the Python script with the defined parameters
 # Pass parameters as command-line arguments
-python run_fetching_pipeline.py \
+python -m classify_trials.run_fetching_pipeline \
     "$PIPELINE_QUERY_TERM" \
     "$PIPELINE_LIMIT" \
     "$PIPELINE_COMPANIES_FILE" \
