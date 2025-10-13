@@ -335,6 +335,7 @@ def fetch_and_save_trials(
     limit: int = 20,
     statuses: Optional[List[str]] = None,
     output_file: str = "trials_output.json", # This is the JSON filename
+    folder: str = "pulled_data", # Default folder for saving data
     sponsor: Optional[str] = None,
     phase: Optional[List[str]] = None,
     save_csv: bool = False  # New parameter
