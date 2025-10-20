@@ -3,14 +3,13 @@ import json
 import os
 import logging
 from datetime import datetime
-from typing import List, Dict, Optional, Any
+from typing import Dict, Any
 
 # Add the project directory to sys.path to allow importing modules
 # Assuming this script is run from the project root
-sys.path.append('.')
 
-from .fetch_trials import fetch_and_save_trials, load_trials_json
-from .dataset_manager import merge_datasets, load_dataset, save_dataset_metadata, _prepare_metadata_for_saving, deduplicate_trials, _save_dataset_json
+from .fetch_trials import fetch_and_save_trials
+from .dataset_manager import merge_datasets, save_dataset_metadata, _prepare_metadata_for_saving, deduplicate_trials, _save_dataset_json
 
 # Configure logging
 logging.basicConfig(

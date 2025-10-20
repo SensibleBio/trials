@@ -12,7 +12,6 @@ Usage:
 
 import json
 import os
-import time
 import logging # Added
 from classify_trials import classify_and_export_trials, generate_classification_summary, print_classification_summary # Updated import
 
@@ -23,8 +22,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def main():
     """Main function to process, classify trials, and export to Google Sheets."""
     # Fixed input and output files
-    input_file = "mrna_trials_500.json"
-    output_file = "mrna_trials_500_classified.json" # Local JSON output
+    input_file = "pulled_data/20251019_203003/merged_trials.json"
+    output_file = "pulled_data/20251019_203003/merged_trials_classified.json" # Local JSON output
 
     logger.info(f"Loading trials from {input_file}...") # Changed to logger
 
