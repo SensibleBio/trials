@@ -2,8 +2,8 @@ import json
 import logging
 import sys
 import datetime
-from google_sheets_client import GoogleSheetsClient
-from config import GOOGLE_SHEETS_CONFIG
+from .google_sheets_client import GoogleSheetsClient
+from .config import GOOGLE_SHEETS_CONFIG
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

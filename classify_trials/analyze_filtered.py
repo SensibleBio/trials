@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
-from google_sheets_client import GoogleSheetsClient
+from .google_sheets_client import GoogleSheetsClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

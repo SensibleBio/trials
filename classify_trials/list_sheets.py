@@ -1,4 +1,4 @@
-from google_sheets_client import GoogleSheetsClient
+from .google_sheets_client import GoogleSheetsClient
 import logging
 
 # Configure logging to see exporter messages

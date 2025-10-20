@@ -16,7 +16,7 @@ from googleapiclient.discovery import build
 import google.auth.exceptions
 from googleapiclient.errors import HttpError
 
-from config import GOOGLE_SHEETS_CONFIG
+from .config import GOOGLE_SHEETS_CONFIG
 
 logger = logging.getLogger(__name__)
 

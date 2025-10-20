@@ -13,7 +13,7 @@ Usage:
 import json
 import os
 import logging # Added
-from classify_trials import classify_and_export_trials, generate_classification_summary, print_classification_summary # Updated import
+from .llm_sort_trials import classify_and_export_trials, generate_classification_summary, print_classification_summary # Updated import
 
 # Initialize logger for main.py
 logger = logging.getLogger(__name__) # Added
