@@ -26,6 +26,7 @@ import json
 import os
 import time
 import logging
+import csv
 from typing import Dict, List, Optional
 import openai
 import sys
@@ -42,23 +43,27 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 class LLMProvider(ABC):
     """Abstract base class for LLM providers."""
-    
+
     @abstractmethod
     def get_completion(self, system_prompt: str, user_prompt: str) -> str:
         """Get completion from the LLM provider."""
-        pass
+        raise NotImplementedError()
+
 
 class OpenAIProvider(LLMProvider):
     """OpenAI API provider implementation."""
-    
+
     def __init__(self, api_key: str):
         try:
+            # Try new OpenAI client
             from openai import OpenAI
             self.client = OpenAI(api_key=api_key)
-        except (ImportError, AttributeError):
-            openai.api_key = api_key
+        except Exception:
+            # Fallback to legacy openai module usage
+            import openai as _openai
+            _openai.api_key = api_key
             self.client = None
-    
+
     def get_completion(self, system_prompt: str, user_prompt: str) -> str:
         try:
             if self.client:
@@ -72,7 +77,8 @@ class OpenAIProvider(LLMProvider):
                 )
                 return response.choices[0].message.content
             else:
-                response = openai.ChatCompletion.create(
+                import openai as _openai
+                response = _openai.ChatCompletion.create(
                     model="gpt-4",
                     messages=[
                         {"role": "system", "content": system_prompt},
@@ -85,21 +91,22 @@ class OpenAIProvider(LLMProvider):
             logger.error(f"OpenAI API error: {e}")
             raise
 
+
 class GeminiProvider(LLMProvider):
     """Google Gemini API provider implementation."""
-    
+
     def __init__(self, api_key: str):
         try:
             import google.generativeai as genai
             genai.configure(api_key=api_key)
+            # Using a high-level model helper if available; this may need updates
             self.model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
         except ImportError:
             logger.error("Google Generative AI package not found. Please install it with: pip install google-generativeai")
             raise
-    
+
     def get_completion(self, system_prompt: str, user_prompt: str) -> str:
         try:
-            # Combine system and user prompts for Gemini
             combined_prompt = f"{system_prompt}\n\n{user_prompt}"
             response = self.model.generate_content(combined_prompt)
             return response.text
@@ -107,17 +114,19 @@ class GeminiProvider(LLMProvider):
             logger.error(f"Gemini API error: {e}")
             raise
 
+
 def get_llm_provider(provider_name: str, api_key: str) -> LLMProvider:
     """Factory function to get the appropriate LLM provider."""
     providers = {
         "openai": OpenAIProvider,
         "gemini": GeminiProvider
     }
-    
+
     if provider_name.lower() not in providers:
         raise ValueError(f"Unsupported LLM provider: {provider_name}. Supported providers: {list(providers.keys())}")
-    
+
     return providers[provider_name.lower()](api_key)
+
 
 def get_provider_type(provider_name: str) -> LLMProviderType:
     """Convert provider name to LLMProviderType enum."""
@@ -127,24 +136,28 @@ def get_provider_type(provider_name: str) -> LLMProviderType:
     }
     return provider_map.get(provider_name.lower(), LLMProviderType.OPENAI)
 
-# Initialize PromptManager with default provider type
-prompt_manager = PromptManager(base_path="prompts", provider_type=LLMProviderType.OPENAI)
 
-# Load the classification template
+# prompt_manager will be initialized in main after provider selection so the correct
+# provider-specific templates can be selected.
+prompt_manager: Optional[PromptManager] = None
+
+
 CLASSIFICATION_TEMPLATE_GROUP = "screen_class_combo"
 CLASSIFICATION_TEMPLATE_VERSION = "v1"
 
-def classify_mrna_trial(trial_info: Dict, llm_provider: LLMProvider) -> str:
+
+def classify_mrna_trial(trial_info: Dict, llm_provider: LLMProvider) -> Dict:
     """
     Classify an mRNA trial using the specified LLM provider.
 
-    Args:
-        trial_info: Dictionary containing trial information
-        llm_provider: LLM provider instance to use for classification
-
-    Returns:
-        String containing the classification result
+    Returns a dict containing the original trial data plus classification metadata.
     """
+    global prompt_manager
+
+    if prompt_manager is None:
+        # Initialize with a sensible default if not set (should be set in main normally)
+        prompt_manager = PromptManager(base_path="prompts", provider_type=LLMProviderType.OPENAI)
+
     # Render the template with trial information
     template_result = prompt_manager.render_template(
         CLASSIFICATION_TEMPLATE_GROUP,
@@ -153,16 +166,34 @@ def classify_mrna_trial(trial_info: Dict, llm_provider: LLMProvider) -> str:
     )
 
     system_prompt = "You are an expert in clinical trial analysis specializing in mRNA-based therapeutics."
-    
+
     try:
         if isinstance(template_result, tuple):
             system_prompt, user_prompt = template_result
         else:
             user_prompt = template_result
-        return llm_provider.get_completion(system_prompt, user_prompt)
+
+        classification_text = llm_provider.get_completion(system_prompt, user_prompt)
+
+        # Extract key indicators if present
+        key_indicators = []
+        if "KEY INDICATORS:" in classification_text:
+            key_section = classification_text.split("KEY INDICATORS:", 1)[1].strip()
+            key_indicators = [line.strip() for line in key_section.splitlines() if line.strip()]
+
+        category = get_category_from_classification(classification_text)
+
+        result = {
+            **trial_info,
+            "classification": classification_text,
+            "category": category,
+            "key_indicators": key_indicators
+        }
+        return result
     except Exception as e:
         logger.error(f"Error during trial classification: {e}")
-        return f"Error in classification: {e}"
+        return {**trial_info, "classification": f"Error in classification: {e}", "category": "Not eligible", "key_indicators": []}
+
 
 def classify_multiple_trials(
         trials: List[Dict],
@@ -170,267 +201,128 @@ def classify_multiple_trials(
         delay: int = 0,
         llm_provider: Optional[LLMProvider] = None) -> List[Dict]:
     """
-    Classify multiple mRNA trials and save results to a file.
+    Classify multiple mRNA trials and save results to a JSON file.
 
-    Args:
-        trials: List of dictionaries containing trial information
-        output_file: Name of file to save classification results to
-        delay: Delay in seconds between API calls to avoid rate limiting
-        llm_provider: Optional LLM provider instance. If not provided, will use OpenAI by default.
-
-    Returns:
-        List of dictionaries containing classification results
+    Returns a list where the first element is metadata and the following elements are per-trial results.
     """
     total_trials = len(trials)
     logger.info(f"Starting classification for {total_trials} trials...")
 
+    if llm_provider is None:
+        raise ValueError("llm_provider must be provided")
+
     # Initialize category counts
-    category_counts = {
-        "Not eligible": 0,
-        "Cancer": 0,
-        "Protein Replacement": 0,
-        "Genetic Medicines": 0,
-        "mRNA-Encoded Biologics": 0,
-        "Cell Therapies": 0,
-        "Infectious Disease Vaccines": 0
+    category_counts: Dict[str, int] = {}
+
+    # Prepare results with metadata
+    metadata = {
+        "classification_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "input_file": os.path.basename(output_file),
+        "total_trials": total_trials,
+        "category_counts": category_counts,
+        "llm_provider": llm_provider.__class__.__name__
     }
 
-    # Add metadata about the classification run
-    results = [{
-        "_metadata": {
-            "classification_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "input_file": os.path.basename(output_file.replace("classified_data/", "").replace("_classifications.json", ".json")),
-            "total_trials": total_trials,
-            "category_counts": category_counts,  # Will be updated as we process trials
-            "llm_provider": llm_provider.__class__.__name__ if llm_provider else "OpenAIProvider"
-        }
-    }]
+    results: List[Dict] = [{"_metadata": metadata}]
 
     for i, trial in enumerate(trials):
-        logger.info(f"\nClassifying trial {i+1}/{total_trials}: {trial['brief_title']}")
+        logger.info(f"Classifying trial {i+1}/{total_trials}: {trial.get('brief_title', 'unknown')}")
+        classified = classify_mrna_trial(trial, llm_provider)
 
-        # Classify the trial
-        classification = classify_mrna_trial(trial, llm_provider)
+        cat = classified.get("category", "Not eligible")
+        category_counts[cat] = category_counts.get(cat, 0) + 1
 
-        # Extract key indicators from the classification string
-        key_indicators = []
-        if "KEY INDICATORS:" in classification:
-            key_indicators_section = classification.split("KEY INDICATORS:")[1].strip()
-            key_indicators = [line.strip() for line in key_indicators_section.split('\n') if line.strip()]
+        results.append(classified)
 
-        # Get category and update counts
-        category = get_category_from_classification(classification)
-        category_counts[category] = category_counts.get(category, 0) + 1
-
-        # Create result by copying all input attributes and adding classification info
-        result = trial.copy()  # Copy all input attributes
-        result.update({
-            "classification": classification,
-            "category": category,
-            "key_indicators": key_indicators
-        })
-
-        # Add to results
-        results.append(result)
-
-        # Print classification result
-        logger.info(f"\nClassification for {trial['nct_id']}:\n{classification}")
-
-        # Avoid rate limiting
-        if i < total_trials - 1:  # Don't sleep after the last item
-            logger.info(f"Waiting {delay} seconds before next classification...")
+        if delay and i < total_trials - 1:
             time.sleep(delay)
 
-    # Update metadata with final category counts
+    # Update metadata counts
     results[0]["_metadata"]["category_counts"] = category_counts
 
-    # Save results to file
-    logger.info(f"\nSaving classification results to {output_file}...")
+    # Save JSON
+    logger.info(f"Saving classification results to {output_file}...")
     with open(output_file, "w") as f:
         json.dump(results, f, indent=2)
 
-    logger.info(f"Classification results saved successfully to {output_file}")
+    logger.info("Classification results saved successfully")
     return results
 
 
 def get_category_from_classification(classification: str) -> str:
     """
-    Extract the category from a classification result.
-
-    Args:
-        classification: Classification result string
-
-    Returns:
-        Category name string
+    Extract the category from a classification result string.
     """
-    if "CLASSIFICATION:" not in classification:
+    if not classification or "CLASSIFICATION:" not in classification:
         return "Not eligible"
 
-    # Extract classification from the result
-    classification_line = [
-        line for line in classification.split('\n')
-        if "CLASSIFICATION:" in line
-    ]
-    if not classification_line:
+    lines = [l for l in classification.splitlines() if "CLASSIFICATION:" in l]
+    if not lines:
         return "Not eligible"
 
-    class_text = classification_line[0].replace("CLASSIFICATION:", "").strip()
+    class_text = lines[0].split("CLASSIFICATION:", 1)[1].strip()
 
-    # Determine category
-    if "[1]" in class_text or "Cancer" in class_text:
+    # Simple heuristics to map classification to category
+    if any(tok in class_text for tok in ("[1]", "Cancer")):
         return "Cancer"
-    elif "[2]" in class_text or "Protein Replacement" in class_text:
+    if any(tok in class_text for tok in ("[2]", "Protein Replacement")):
         return "Protein Replacement"
-    elif "[3]" in class_text or "Genetic Medicines" in class_text:
+    if any(tok in class_text for tok in ("[3]", "Genetic Medicines")):
         return "Genetic Medicines"
-    elif "[4]" in class_text or "mRNA-Encoded Biologics" in class_text:
+    if any(tok in class_text for tok in ("[4]", "mRNA-Encoded Biologics")):
         return "mRNA-Encoded Biologics"
-    elif "[5]" in class_text or "Cell Therapies" in class_text:
+    if any(tok in class_text for tok in ("[5]", "Cell Therapies")):
         return "Cell Therapies"
-    elif "[6]" in class_text or "Infectious Disease Vaccines" in class_text:
+    if any(tok in class_text for tok in ("[6]", "Infectious Disease Vaccines")):
         return "Infectious Disease Vaccines"
-    else:
-        return "Not eligible"
+
+    return "Not eligible"
 
 
-def classify_and_export_trials(
-    trials: List[Dict],
-    output_file: str = "classifications.json",
-    export_to_sheets: bool = False,
-    spreadsheet_id: Optional[str] = None,
-    new_spreadsheet_title: Optional[str] = None
-) -> List[Dict]:
+def write_csv_from_results(results: List[Dict], json_output_path: str) -> str:
+    """Write a CSV file derived from the JSON results file name.
+
+    Returns the CSV filepath written.
     """
-    Classifies a list of clinical trials and optionally exports the results
-    (classifications, summary, and raw trial data) to Google Sheets.
+    # Derive CSV filename
+    base, ext = os.path.splitext(json_output_path)
+    csv_path = f"{base}.csv" if ext.lower() == ".json" else f"{json_output_path}.csv"
 
-    Args:
-        trials (List[Dict]): A list of dictionaries, where each dictionary
-                             represents a clinical trial's data.
-        output_file (str): Path to save the JSON file with classification results.
-                           Defaults to "classifications.json".
-        export_to_sheets (bool): If True, results will be exported to Google Sheets.
-                                 Defaults to False.
-        spreadsheet_id (Optional[str]): The ID of an existing Google Spreadsheet to export to.
-                                        If None, and `new_spreadsheet_title` is also None,
-                                        it will try to use the default ID from config.
-        new_spreadsheet_title (Optional[str]): If provided and `spreadsheet_id` is None,
-                                               a new spreadsheet with this title will be created.
+    # Skip metadata element when building headers/rows
+    rows = [r for r in results if not ("_metadata" in r)]
 
-    Returns:
-        List[Dict]: The list of classification results.
-    """
-    logger.info("Starting trial classification and export process...")
-    results = classify_multiple_trials(trials, output_file)
+    # Build header as union of all keys, place common keys first
+    common_order = ["nct_id", "brief_title", "phase", "sponsor", "category", "classification", "key_indicators"]
+    keys = []
+    for r in rows:
+        for k in r.keys():
+            if k not in keys:
+                keys.append(k)
 
-    if not export_to_sheets:
-        logger.info("Google Sheets export is disabled. Skipping export.")
-        return results
+    # Reorder keys: common fields first, then the rest
+    ordered_keys = [k for k in common_order if k in keys] + [k for k in keys if k not in common_order]
 
-    logger.info("Initializing GoogleSheetsClient...")
-    exporter = GoogleSheetsClient()
+    def serialize_value(v):
+        if v is None:
+            return ""
+        if isinstance(v, list):
+            return "; ".join(str(x) for x in v)
+        if isinstance(v, dict):
+            return json.dumps(v, ensure_ascii=False)
+        return str(v)
 
-    if not exporter.service:
-        logger.error("GoogleSheetsClient authentication failed. Cannot export to Google Sheets.")
-        return results
+    with open(csv_path, "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(ordered_keys)
+        for r in rows:
+            writer.writerow([serialize_value(r.get(k, "")) for k in ordered_keys])
 
-    target_spreadsheet_id = None
-    created_new_sheet = False
-
-    if spreadsheet_id:
-        logger.info(f"Using provided existing spreadsheet ID: {spreadsheet_id}")
-        target_spreadsheet_id = spreadsheet_id
-    elif new_spreadsheet_title:
-        logger.info(f"Attempting to create a new spreadsheet with title: '{new_spreadsheet_title}'")
-        target_spreadsheet_id = exporter.create_new_spreadsheet(new_spreadsheet_title)
-        if target_spreadsheet_id:
-            created_new_sheet = True
-            logger.info(f"Successfully created new spreadsheet with ID: {target_spreadsheet_id}")
-        else:
-            logger.error(f"Failed to create new spreadsheet with title: '{new_spreadsheet_title}'.")
-    else:
-        default_id_from_config = GOOGLE_SHEETS_CONFIG.get('default_spreadsheet_id')
-        if default_id_from_config:
-            logger.info(f"Using default spreadsheet ID from config: {default_id_from_config}")
-            target_spreadsheet_id = default_id_from_config
-        else:
-            logger.error("No spreadsheet_id provided, no new_spreadsheet_title specified, and no default_spreadsheet_id found in config. Cannot export to Google Sheets.")
-
-    if not target_spreadsheet_id:
-        logger.warning("No target spreadsheet ID determined. Skipping Google Sheets export.")
-        return results
-
-    logger.info(f"Exporting classification results to spreadsheet ID: {target_spreadsheet_id}")
-    class_export_success = exporter.export_classification_results(results, target_spreadsheet_id)
-    if class_export_success:
-        logger.info("Successfully exported classification results.")
-    else:
-        logger.error("Failed to export classification results.")
-
-    logger.info(f"Creating summary sheet in spreadsheet ID: {target_spreadsheet_id}")
-    summary_export_success = exporter.create_summary_sheet(results, target_spreadsheet_id)
-    if summary_export_success:
-        logger.info("Successfully created summary sheet.")
-    else:
-        logger.error("Failed to create summary sheet.")
-
-    logger.info(f"Exporting raw trial data to spreadsheet ID: {target_spreadsheet_id}")
-    # Assuming 'trials' is the list of raw trial dicts passed to this function
-    trial_data_export_success = exporter.export_trial_data(trials, target_spreadsheet_id)
-    if trial_data_export_success:
-        logger.info("Successfully exported raw trial data.")
-    else:
-        logger.error("Failed to export raw trial data.")
-    
-    sheet_url_base = "https://docs.google.com/spreadsheets/d/"
-    if created_new_sheet:
-        logger.info(f"All exports completed to new sheet: {sheet_url_base}{target_spreadsheet_id}")
-    else:
-        logger.info(f"All exports completed to existing sheet: {sheet_url_base}{target_spreadsheet_id}")
-
-    return results
+    logger.info(f"CSV results written to {csv_path}")
+    return csv_path
 
 
-def generate_classification_summary(results: List[Dict]) -> Dict[str, int]:
-    """
-    Generate a summary of classification results.
-
-    Args:
-        results: List of dictionaries containing classification results
-
-    Returns:
-        Dictionary mapping category names to counts
-    """
-    categories = {
-        "Not eligible": 0,
-        "Cancer": 0,
-        "Protein Replacement": 0,
-        "Genetic Medicines": 0,
-        "mRNA-Encoded Biologics": 0,
-        "Cell Therapies": 0,
-        "Infectious Disease Vaccines": 0
-    }
-
-    for result in results:
-        category = result.get("category", "Unknown")
-        if category in categories:
-            categories[category] += 1
-        else:
-            categories["Not eligible"] += 1
-
-    return categories
-
-
-def print_classification_summary(categories: Dict[str, int]) -> None:
-    """
-    Print a summary of classification results.
-
-    Args:
-        categories: Dictionary mapping category names to counts
-    """
-    logger.info("\nClassification Summary:")
-    for category, count in categories.items():
-        logger.info(f"- {category}: {count}")
+def str2bool(v: str) -> bool:
+    return str(v).lower() in ("yes", "true", "t", "1")
 
 
 if __name__ == "__main__":
@@ -438,65 +330,43 @@ if __name__ == "__main__":
     parser.add_argument('input_file', help='Input JSON file containing trials to classify')
     parser.add_argument('output_file', help='Output JSON file to save classification results')
     parser.add_argument('--provider', choices=['openai', 'gemini'], default='openai',
-                      help='LLM provider to use (default: openai)')
-    parser.add_argument('--api-key-file', default=None,
-                      help='File containing the API key (default: provider-specific key file)')
+                        help='LLM provider to use (default: openai)')
+    parser.add_argument('--save-csv', default='true',
+                        help='Whether to also save CSV output alongside JSON (true/false). Default: true')
+    parser.add_argument('--delay', type=int, default=0, help='Delay in seconds between API calls')
     args = parser.parse_args()
 
-   # Load environment variables from .env if python-dotenv is available
+    # Optionally load .env
     try:
         from dotenv import load_dotenv
         load_dotenv()
     except Exception:
-        # dotenv is optional; proceed using existing environment variables if present
+        # python-dotenv is optional; environment variables may already be set
         pass
 
-    # Look for provider-specific API key environment variables
-    env_key_candidates = {
-        "openai": ["OPENAI_API_KEY", "OPENAI-API-KEY"],
-        "gemini": ["GEMINI_API_KEY", "GEMINI-API-KEY"]
-    }
+    save_csv = str2bool(args.save_csv)
 
-    api_key = None
-    for name in env_key_candidates.get(args.provider, []):
-        api_key = os.getenv(name)
-        if api_key:
-            break
+    provider = args.provider.lower()
 
+    # Choose API key from environment variables
+    api_env_var = "OPENAI_API_KEY" if provider == "openai" else "GEMINI_API_KEY"
+    api_key = os.getenv(api_env_var)
     if not api_key:
-        logger.error(
-            f"No API key found for provider '{args.provider}'. "
-            f"Set one of {env_key_candidates.get(args.provider)} in a .env file or in the environment."
-        )
-        sys.exit(1) 
-
-    # Initialize LLM provider
-    try:
-        llm_provider = get_llm_provider(args.provider, api_key)
-        # Update PromptManager with the correct provider type
-        prompt_manager.set_provider_type(get_provider_type(args.provider))
-    except Exception as e:
-        logger.error(f"Failed to initialize LLM provider: {e}")
+        logger.error(f"API key not found in environment. Please set the {api_env_var} environment variable (or create a .env file).")
         sys.exit(1)
 
-    logger.info(f"Loading trials from {args.input_file}...")
-    try:
-        with open(args.input_file, "r") as f:
-            trials_data = json.load(f)
+    # Initialize LLM provider
+    llm = get_llm_provider(provider, api_key)
 
-        logger.info(f"Loaded {len(trials_data)} trials")
-        
-        # Classify trials and save to local JSON
-        logger.info("Classifying trials and saving to local JSON...")
-        results_data = classify_multiple_trials(trials_data, output_file=args.output_file, llm_provider=llm_provider)
+    # Initialize prompt manager with the chosen provider type
+    prompt_manager = PromptManager(base_path="prompts", provider_type=get_provider_type(provider))
 
-        # Generate and print summary
-        if results_data:
-            categories_summary = generate_classification_summary(results_data)
-            print_classification_summary(categories_summary)
+    # Load trials from input file
+    with open(args.input_file, "r") as f:
+        trials = json.load(f)
 
-    except FileNotFoundError:
-        logger.error(f"File not found: {args.input_file}")
-        logger.error("Please check if the input file exists")
-    except Exception as e:
-        logger.error(f"An unexpected error occurred: {e}", exc_info=True)
+    results = classify_multiple_trials(trials, output_file=args.output_file, delay=args.delay, llm_provider=llm)
+
+    if save_csv:
+        write_csv_from_results(results, args.output_file)
+
