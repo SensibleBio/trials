@@ -19,17 +19,20 @@ Then, install the required packages with pip:
 pip install -r requirements.txt
 ```
 
-The Gemini API key should be provided in a `.env` file in the root directory. This will be used to classify the trials after they are fetched.
+TODO: The google-generativeai package is now deprecated; need to update this dependency to google-genai.
+
+An LLM is used to classify clinical trials fetched from clinicaltrials.gov. For now, the two supported providers are Google Gemini and OpenAI. The API key should be provided as an envionment variable, and the recommended way to do this is within a `.env` file in your project root directory. For example, you can provide one of the following:
 
 ```
+# For Gemini
 GEMINI_API_KEY=your_api_key_here
+# Or for OpenAI
+OPENAI_API_KEY=your_api_key_here
 ```
 
 ## Usage
 
-Some notes on the way (I think) this is used:
-
-It looks like `run_pipeline.sh` only runs the fetching step, as defined below. Thereafter, the classification steps seem to be run from `main.py`. 
+For now, this usage is separated into three main steps while development is ongoing: fetching trials, classifying trials, and outputting results.
 
 ### Fetching and Processing Trials
 
@@ -41,9 +44,6 @@ From `run_fetching_pipeline.py`:
 
 Of note here, the number of trials that can be pulled per clinicaltrials.gov API request is limited to 500. For the initial mRNA search term, this might be limiting (if not now, then it could be over time as the number of trials presumably increases). Perhaps can optimize fields to search mRNA for so as to improve efficiency.
 
-TODO: Remove extraneous function calls
-TODO: Execute fetching pipeline from `main.py`
-
 To run just this submodule, use:
 
 ```bash
@@ -52,9 +52,15 @@ python -m classify_trials.run_fetching_pipeline
 
 ### Classifying Trials
 
-Notes on `main.py`
-- Currently, all inputs are hard-coded.
+From `llm_sort_trials.py`:
+1. Loads the trials JSON file
+2. For each trial, prompts the LLM to classify the trial into one of several categories
+3. Saves the classified trials to a new JSON file
 
-## Requirements
+To run this submodule, use:
 
-TODO: Add in requirements used by the second portion of the tool.
+```bash
+python -m classify_trials.llm_sort_trials trials_class_test.json trials_class_test_classified.json --provider gemini
+```
+
+The `--provider` flag accepts either `openai` or `gemini`, currently.

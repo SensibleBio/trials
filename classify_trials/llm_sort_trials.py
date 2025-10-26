@@ -443,17 +443,32 @@ if __name__ == "__main__":
                       help='File containing the API key (default: provider-specific key file)')
     args = parser.parse_args()
 
-    # Determine API key file based on provider if not specified
-    if args.api_key_file is None:
-        args.api_key_file = f"{args.provider}_api_key.txt"
-
-    # Load API key
+   # Load environment variables from .env if python-dotenv is available
     try:
-        with open(args.api_key_file, 'r') as f:
-            api_key = f.read().strip()
-    except FileNotFoundError:
-        logger.error(f"API key file not found: {args.api_key_file}")
-        sys.exit(1)
+        from dotenv import load_dotenv
+        load_dotenv()
+    except Exception:
+        # dotenv is optional; proceed using existing environment variables if present
+        pass
+
+    # Look for provider-specific API key environment variables
+    env_key_candidates = {
+        "openai": ["OPENAI_API_KEY", "OPENAI-API-KEY"],
+        "gemini": ["GEMINI_API_KEY", "GEMINI-API-KEY"]
+    }
+
+    api_key = None
+    for name in env_key_candidates.get(args.provider, []):
+        api_key = os.getenv(name)
+        if api_key:
+            break
+
+    if not api_key:
+        logger.error(
+            f"No API key found for provider '{args.provider}'. "
+            f"Set one of {env_key_candidates.get(args.provider)} in a .env file or in the environment."
+        )
+        sys.exit(1) 
 
     # Initialize LLM provider
     try:
