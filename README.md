@@ -2,6 +2,29 @@
 
 The goal of this tool is to fetch ongoing clinical trials involving therapeutic/interventional mRNA therapies, and thereafter to categorize these trials based on the application.
 
+## Setting up environment
+
+To run this tool, this package and its dependencies can be installed in a virtual environment with `venv` and `pip`.
+
+First, set up the virtual environment (if on a Unix-based system):
+
+```bash
+python -m venv .venv # will be created in current directory
+source .venv/bin/activate
+```
+
+Then, install the required packages with pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+The Gemini API key should be provided in a `.env` file in the root directory. This will be used to classify the trials after they are fetched.
+
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
 ## Usage
 
 Some notes on the way (I think) this is used:
@@ -20,6 +43,12 @@ Of note here, the number of trials that can be pulled per clinicaltrials.gov API
 
 TODO: Remove extraneous function calls
 TODO: Execute fetching pipeline from `main.py`
+
+To run just this submodule, use:
+
+```bash
+python -m classify_trials.run_fetching_pipeline
+```
 
 ### Classifying Trials
 
