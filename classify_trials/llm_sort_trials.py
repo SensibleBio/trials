@@ -32,6 +32,8 @@ import openai
 import sys
 import argparse
 from abc import ABC, abstractmethod
+import xml.etree.ElementTree as ET
+import re
 
 from .google_sheets_client import GoogleSheetsClient
 from .config import GOOGLE_SHEETS_CONFIG
@@ -321,13 +323,116 @@ def write_csv_from_results(results: List[Dict], json_output_path: str) -> str:
     return csv_path
 
 
+def parse_ictrp_xml(file_path: str) -> List[Dict]:
+    """Parse an ICTRP XML export and return a list of trial dicts.
+
+    This is a lightweight parser that extracts top-level children of each
+    <Trial> element and normalizes some common fields used by the
+    classification templates (nct_id, brief_title, official_title, brief_summary,
+    detailed_description, conditions, interventions, phases, sponsor).
+    """
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+
+    # Find Trial elements (ICTRP uses <Trial> repeatedly)
+    trial_elems = root.findall('.//Trial')
+    if not trial_elems:
+        # fallback: if file uses different structure, try top-level children
+        trial_elems = [c for c in root]
+
+    trials: List[Dict] = []
+    for t in trial_elems:
+        d: Dict[str, object] = {}
+        for child in t:
+            tag = child.tag.strip()
+            text = None
+            if child.text:
+                txt = child.text.strip()
+                if txt:
+                    text = txt
+
+            # If tag already present, coerce to list
+            if tag in d:
+                existing = d[tag]
+                if isinstance(existing, list):
+                    existing.append(text)
+                else:
+                    d[tag] = [existing, text]
+            else:
+                d[tag] = text
+
+        # Normalize commonly-used keys for downstream code
+        # NCT/Trial id
+        trial_id = d.get('TrialID') or d.get('Secondary_ID') or d.get('Internal_Number') or ''
+        d['nct_id'] = (trial_id or '').strip()
+
+        # Titles and descriptions
+        d['brief_title'] = d.get('Public_title') or ''
+        d['official_title'] = d.get('Scientific_title') or ''
+        # Build summary/description by concatenating Scientific_title, Study_design, Intervention
+        def concat_fields(*fields: str) -> str:
+            parts: List[str] = []
+            for f in fields:
+                val = d.get(f)
+                if val:
+                    # Replace encoded <br> entities with newlines for readability
+                    s = str(val).replace('&lt;br&gt;', '\n').replace('<br>', '\n')
+                    s = s.strip()
+                    if s:
+                        parts.append(s)
+            return "\n\n".join(parts)
+
+        # brief_summary prefer Primary_outcome, otherwise use concatenation
+        d['brief_summary'] = concat_fields('Scientific_title', 'Study_design', 'Intervention') or ''
+
+        # detailed_description is the concatenation of Scientific_title, Study_design, Intervention
+        d['detailed_description'] = concat_fields('Scientific_title', 'Study_design', 'Intervention') or ''
+
+        # Conditions: split on common delimiters into a list
+        conds = d.get('Condition') or d.get('Conditions') or ''
+        if conds:
+            parts = [c.strip() for c in re.split(r";|,|\\n|<br>|&lt;br&gt;", conds) if c.strip()]
+            d['conditions'] = parts
+        else:
+            d['conditions'] = []
+
+        # Interventions: split and create a small dict for each
+        inters = d.get('Intervention') or ''
+        if inters:
+            inter_parts = [s.strip() for s in re.split(r";|\\n|<br>|&lt;br&gt;", inters) if s.strip()]
+            inter_objs = []
+            for s in inter_parts:
+                if ':' in s:
+                    typ, name = s.split(':', 1)
+                    inter_objs.append({'type': typ.strip(), 'name': name.strip(), 'description': s})
+                else:
+                    inter_objs.append({'type': '', 'name': s, 'description': s})
+            d['interventions'] = inter_objs
+        else:
+            d['interventions'] = []
+
+        # Phase -> phases list
+        phase = d.get('Phase') or ''
+        if phase:
+            d['phases'] = [p.strip() for p in re.split(r";|,", phase) if p.strip()]
+        else:
+            d['phases'] = []
+
+        # Sponsor normalization
+        d['sponsor'] = d.get('Primary_sponsor') or d.get('Sponsor') or ''
+
+        trials.append(d)
+
+    return trials
+
+
 def str2bool(v: str) -> bool:
     return str(v).lower() in ("yes", "true", "t", "1")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Classify mRNA clinical trials')
-    parser.add_argument('input_file', help='Input JSON file containing trials to classify')
+    parser.add_argument('input_file', help='Input JSON or ICTRP XML file containing trials to classify')
     parser.add_argument('output_file', help='Output JSON file to save classification results')
     parser.add_argument('--provider', choices=['openai', 'gemini'], default='openai',
                         help='LLM provider to use (default: openai)')
@@ -361,9 +466,13 @@ if __name__ == "__main__":
     # Initialize prompt manager with the chosen provider type
     prompt_manager = PromptManager(base_path="prompts", provider_type=get_provider_type(provider))
 
-    # Load trials from input file
-    with open(args.input_file, "r") as f:
-        trials = json.load(f)
+    # Load trials from input file (supports JSON and ICTRP XML)
+    if args.input_file.lower().endswith('.xml'):
+        logger.info(f"Detected XML input file: {args.input_file}, parsing as ICTRP export...")
+        trials = parse_ictrp_xml(args.input_file)
+    else:
+        with open(args.input_file, "r") as f:
+            trials = json.load(f)
 
     results = classify_multiple_trials(trials, output_file=args.output_file, delay=args.delay, llm_provider=llm)
 
