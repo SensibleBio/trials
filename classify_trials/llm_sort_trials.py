@@ -28,15 +28,12 @@ import time
 import logging
 import csv
 from typing import Dict, List, Optional
-import openai
 import sys
 import argparse
 from abc import ABC, abstractmethod
 import xml.etree.ElementTree as ET
 import re
 
-from .google_sheets_client import GoogleSheetsClient
-from .config import GOOGLE_SHEETS_CONFIG
 from .prompt_manager import PromptManager, LLMProviderType
 
 # Initialize logger
