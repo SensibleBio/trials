@@ -34,7 +34,7 @@ from abc import ABC, abstractmethod
 import xml.etree.ElementTree as ET
 import re
 
-from .prompt_manager import PromptManager, LLMProviderType
+from classify_trials.prompt_manager import PromptManager, LLMProviderType
 
 # Initialize logger
 logger = logging.getLogger(__name__)
