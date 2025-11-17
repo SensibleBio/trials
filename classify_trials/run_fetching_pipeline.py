@@ -180,37 +180,4 @@ def run_pipeline(
          final_merged_trials = []
 
     logger.info(f"Pipeline finished. Output saved to {run_output_folder}.")
-    return final_merged_trials
-
-if __name__ == "__main__":
-    default_query = os.environ.get("PIPELINE_QUERY_TERM", "mRNA")
-    default_limit = int(os.environ.get("PIPELINE_LIMIT", "100"))
-    default_companies_file = os.environ.get("PIPELINE_COMPANIES_FILE", "prompts/reference_data/mrna_companies.json") # Default to the correct path
-    default_output_folder = os.environ.get("PIPELINE_OUTPUT_FOLDER", "pulled_data")
-    default_merged_filename = os.environ.get("PIPELINE_MERGED_FILENAME", "merged_trials.json")
-    default_save_company_files = os.environ.get("PIPELINE_SAVE_COMPANY_FILES", "False").lower() == "true"
-
-    args = sys.argv[1:]
-    query_term = args[0] if len(args) > 0 else default_query
-    limit = int(args[1]) if len(args) > 1 else default_limit
-    companies_filepath = args[2] if len(args) > 2 else default_companies_file
-    output_folder = args[3] if len(args) > 3 else default_output_folder
-    merged_output_filename = args[4] if len(args) > 4 else default_merged_filename
-    save_company_files = args[5].lower() == "true" if len(args) > 5 else default_save_company_files
-
-    logger.info(f"Running pipeline with parameters:")
-    logger.info(f"  Query Term: {query_term}")
-    logger.info(f"  Limit Per Fetch: {limit}")
-    logger.info(f"  Companies File: {companies_filepath}")
-    logger.info(f"  Output Folder (Base): {output_folder}")
-    logger.info(f"  Merged Output Filename: {merged_output_filename}")
-    logger.info(f"  Save Individual Company Files: {save_company_files}")
-
-    run_pipeline(
-        query_term=query_term,
-        limit=limit,
-        companies_filepath=companies_filepath,
-        output_folder=output_folder,
-        merged_output_filename=merged_output_filename,
-        save_company_files=save_company_files
-    ) 
+    return final_merged_trials, run_output_folder
